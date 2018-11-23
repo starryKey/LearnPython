@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="" />
+    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-01-环境配置-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-01-环境配置-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-02-变量-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-02-变量-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-03-变量+字符串-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-03-变量+字符串-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-04-分支-循环-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-04-分支-循环-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-05-函数-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-05-函数-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-06-作用域-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-06-作用域-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-07-内置数据结构-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-07-内置数据结构-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/.ipynb_checkpoints/Python基础-08-OOP基础-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-08-OOP基础-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-01-环境配置.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/Python基础-01-环境配置.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-02-变量.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/Python基础-02-变量.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-03-变量+字符串.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/Python基础-03-变量+字符串.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-04-分支-循环.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/Python基础-04-分支-循环.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-05-函数.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/Python基础-05-函数.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-06-作用域.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/Python基础-06-作用域.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-07-内置数据结构.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Note/01-语法基础/Python基础-07-内置数据结构.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/Python基础-08-OOP.md" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +49,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="38" />
+          <entry key="md" value="780" />
           <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="38" />
+          <entry key="Markdown" value="780" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -45,11 +64,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Note/Python基础-08-OOP.md">
+        <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="15">
-                <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+              <first_editor relative-caret-position="196">
+                <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -57,7 +76,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/Python基础-07-内置数据结构.ipynb">
+        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-07-内置数据结构.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -84,9 +103,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-250" />
-    <option name="y" value="50" />
-    <option name="width" value="1280" />
+    <option name="x" value="143" />
+    <option name="y" value="23" />
+    <option name="width" value="1315" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -109,6 +128,12 @@
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="Note" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="Note" type="462c0819:PsiDirectoryNode" />
+              <item name="02-OOP" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,6 +146,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Note/01-语法基础" />
+      <recent name="$PROJECT_DIR$/Note/02-OOP" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,15 +208,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="143" y="23" width="1315" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30557737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Python Console" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -226,18 +257,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test again" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Note/Python基础-07-内置数据结构.ipynb">
+    <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-07-内置数据结构.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note/Python基础-08-OOP.md">
+    <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <first_editor relative-caret-position="196">
+            <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
