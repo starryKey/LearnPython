@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1542989834901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
+    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543073502705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-869535818">
@@ -23,30 +25,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ipynb" value="2" />
+          <entry key="ipynb" value="4" />
           <entry key="md" value="1" />
           <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="IPNB" value="2" />
+          <entry key="IPNB" value="4" />
           <entry key="Markdown" value="1" />
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1169" />
-          <entry key="py" value="416" />
-          <entry key="txt" value="18" />
+          <entry key="md" value="2109" />
+          <entry key="py" value="1312" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1169" />
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="416" />
+          <entry key="Markdown" value="2109" />
+          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="Python" value="1312" />
         </counts>
       </usages-collector>
     </session>
@@ -57,8 +59,8 @@
         <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="423">
-                <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+              <first_editor relative-caret-position="306">
+                <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -68,30 +70,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="332">
+              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
               <folding>
-                <marker date="1542989971499" expanded="true" signature="33:38" ph="..." />
-                <marker date="1542989971499" expanded="true" signature="175:180" ph="..." />
+                <marker date="1543073502691" expanded="true" signature="33:38" ph="..." />
+                <marker date="1543073502691" expanded="true" signature="175:180" ph="..." />
+                <marker date="1543073502691" expanded="true" signature="1592:1639" ph="..." />
+                <marker date="1543073502691" expanded="true" signature="1950:2160" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-03-变量+字符串.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-07-内置数据结构.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -124,10 +110,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="320" />
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="x" value="-54" />
+    <option name="y" value="60" />
+    <option name="width" value="1267" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -268,14 +254,22 @@
       <option name="project" value="LOCAL" />
       <updated>1542984143649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Test commit and push">
+      <created>1542990324399</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542990324399</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="-54" y="60" width="1267" height="740" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31421646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27183673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -285,8 +279,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287037" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4228395" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -317,10 +311,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test commit" />
     <MESSAGE value="Test again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test again" />
+    <MESSAGE value="Test commit and push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit and push" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-03-变量+字符串.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Note/Python基础-07-内置数据结构.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
@@ -337,8 +339,8 @@
     <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="423">
-            <caret line="57" column="4" lean-forward="true" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
+          <first_editor relative-caret-position="306">
+            <caret line="99" column="8" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -346,11 +348,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="332">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
           <folding>
-            <marker date="1542989971499" expanded="true" signature="33:38" ph="..." />
-            <marker date="1542989971499" expanded="true" signature="175:180" ph="..." />
+            <marker date="1543073502691" expanded="true" signature="33:38" ph="..." />
+            <marker date="1543073502691" expanded="true" signature="175:180" ph="..." />
+            <marker date="1543073502691" expanded="true" signature="1592:1639" ph="..." />
+            <marker date="1543073502691" expanded="true" signature="1950:2160" ph="..." />
           </folding>
         </state>
       </provider>

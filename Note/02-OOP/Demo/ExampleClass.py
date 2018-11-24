@@ -33,4 +33,86 @@ jack.name = "Jack"
 jack.age = 24
 jack.doHomeWork()
 
+print(PythonStudent.__dict__)
+print(jack.__dict__)
+
+# 此时PythonStudent称为类实例
+print("*" * 20)
+print(id(PythonStudent.name))
+print(id(PythonStudent.age))
+
+# id可以鉴别一个变量是否和另一个变量相同
+stu = PythonStudent()
+print(id(stu.name))
+print(id(stu.age))
+
+stu.name = "Tom"
+stu.age = "18"
+print("*" * 20)
+print(id(stu.name))
+print(id(stu.age))
+
+class Teacher():
+    name = "Tom"
+    subject = "English"
+
+    # 非绑定类的方法 //相当于OC swift中 实例方法
+    def teach(self):
+        self.name = "Jane"
+        self.subject = "math"
+        print("name = {0},subject = {1}".format(self.name, self
+                                                .subject))
+    def teach2(s):
+        print("name = {0},subject = {1}".format(s.name, s.subject))
+    #类名绑定 //相当于OC swift中 类方法
+    def teach3():
+        print("name = {0},subject = {1}".format(__class__.name, __class__.subject))
+    #构造函数
+    def __init__(self):
+        self.name = "John"
+        self.subject = "History"
+    def teach4(self):
+        print("name = {0},subject = {1}".format(self.name, self
+                                                .subject))
+
+class BStudent():
+    name = "xiaohua"
+    subject = "English"
+
+teacher1 = Teacher()
+# teacher1.teach()
+teacher1.teach2()
+Teacher.teach3()
+
+s = Teacher()
+s.teach4()
+
+#此时self被s替换
+Teacher.teach4(s)
+#同样可以把Teacher作为参数传进去
+Teacher.teach4(Teacher)
+#静态编译会进行强类型检查Java等
+#此时，传入的是类实例B，因为BStudent具有name和subject属性，所以不会报错
+
+Teacher.teach4(BStudent)
+#以上代码，利用了鸭子模型
+
+###私有属性的访问
+
+class Person():
+    name = "Jamas"
+    __age = 18
+
+a = Person()
+a.name = "Tom"
+# print(Person.__class__.name)
+# age 检测不到
+
+#私有成员变量，其实是可以访问的
+print(a.__dict__)
+print(Person.__dict__)
+
+a._Person__age = 20
+print(a._Person__age)
+
 
