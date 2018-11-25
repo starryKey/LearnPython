@@ -101,7 +101,7 @@ Teacher.teach4(BStudent)
 
 class Person():
     name = "Jamas"
-    _age = 18
+    __age = 18
 
 a = Person()
 a.name = "Tom"
@@ -112,21 +112,53 @@ a.name = "Tom"
 print(a.__dict__)
 print(Person.__dict__)
 
-a._Person_age = 20
-print(a._Person_age)
+a._Person__age = 20
+print(a._Person__age)
 
 
 #继承的语法
 
 class Engneer(Person):
     subject = "iOS"
-
+    __ages = "28"
+    __test = "hh"
     def playGame(self):
         print("玩游戏")
 
 eng = Engneer()
 eng.name = "Tom"
 eng.playGame()
+print(eng._Engneer__test)
+
+print(eng.__dict__)
+print(Engneer.__dict__)
+
+print(eng._Engneer__ages)
 
 
+
+
+print("**********************我是分割线***********************")
+
+#构造函数
+class Animal():
+    pass
+class Panda(Animal):
+    # def __init__(self):
+    #     print("我是国宝🐼")
+    def __init__(self, name):
+        print("我是{0}".format(name))
+class Dog(Panda):
+    def __init__(self):
+        print("I am a dog")
+class Cat(Panda):
+    pass
+# 实例化的时候，自动调用了Dog的构造函数，因为找到了构造函数，则停止向上查找
+
+dog = Dog()
+# 由于Cat没有构造函数，故向上查找，因为父类的构造函数需要两个参数，因此
+cat = Cat("我是猫科动物")
+
+print(type(super))
+help(super)
 
