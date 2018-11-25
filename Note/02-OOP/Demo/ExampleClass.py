@@ -101,7 +101,7 @@ Teacher.teach4(BStudent)
 
 class Person():
     name = "Jamas"
-    __age = 18
+    _age = 18
 
 a = Person()
 a.name = "Tom"
@@ -112,7 +112,21 @@ a.name = "Tom"
 print(a.__dict__)
 print(Person.__dict__)
 
-a._Person__age = 20
-print(a._Person__age)
+a._Person_age = 20
+print(a._Person_age)
+
+
+#继承的语法
+
+class Engneer(Person):
+    subject = "iOS"
+
+    def playGame(self):
+        print("玩游戏")
+
+eng = Engneer()
+eng.name = "Tom"
+eng.playGame()
+
 
 
