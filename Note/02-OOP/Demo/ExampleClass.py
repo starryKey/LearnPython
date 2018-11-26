@@ -162,3 +162,96 @@ cat = Cat("我是猫科动物")
 print(type(super))
 help(super)
 
+class A():
+    pass
+
+class B(A):
+    pass
+
+class C(B,A):
+    pass
+
+print(A.__mro__)
+print(B.__mro__)
+print(C.__mro__)
+
+
+# 多继承
+class Fish():
+    def __init__(self,name):
+        self.name = name
+    def swim(self):
+        print("I am swimming")
+
+class Bird():
+    def __init__(self,name):
+        self.name = name
+    def fly(self):
+        print("I am flying")
+class PersonD():
+    def __init__(self,name):
+        self.name = name
+    def work(self):
+        print("I am working")
+class SuperMan(PersonD,Bird,Fish):
+    def __init__(self,name):
+        self.name = name
+
+s = SuperMan("ChaoRen")
+s.fly()
+s.swim()
+s.work()
+
+#单继承
+
+class Woker(PersonD):
+        pass
+woker = Woker("HH")
+woker.work()
+
+
+class PersonH():
+    # name = ""
+    # age = 18
+    # 只能写一个构造函数❓❓❓
+    # def __init__(self,name,age):
+    #     self.name = name
+    #     self.age = age
+    #     print("name = {0}, age = {1}".format(name,age))
+    def __init__(self):
+        self.name = "Tom"
+        self.age = 18
+        print("name = {0}, age = {1}".format(self.name, self.age))
+# ph = PersonH("Jack",18)
+ph2 = PersonH()
+
+
+class A():
+    pass
+class B(A):
+    def __init__(self,name):
+        print(name)
+class C(B):
+    #对父类构造函数进行扩展
+    #第一种方式
+    """
+        def __init__(self,name,age):
+        #首先调用父类的函数
+        B.__init__(self,name)
+        print(name)
+        #其次增加自己的功能
+        print(age)
+    """
+
+    #第二种方式，使用super调用
+    def __init__(self,name):
+        #首先调用父类构造函数
+        super(C, self).__init__(name)
+        #其次，再增加自己的功能
+        print("C中的功能")
+
+
+
+
+# cc = C("Tom",27)
+ccc = C("Jane")
