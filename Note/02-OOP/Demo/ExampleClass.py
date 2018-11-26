@@ -255,3 +255,50 @@ class C(B):
 
 # cc = C("Tom",27)
 ccc = C("Jane")
+
+
+#Mixin写法
+
+class PersonM():
+    name = "Tom"
+    age = 18
+    def eat(self):
+        print("Eat...")
+    def drink(self):
+        print("drink...")
+    def sleep(self):
+        print("sleep...")
+class TeacherM(PersonM):
+    def work(self):
+        print("work...")
+class StudentM(PersonM):
+    def study(self):
+        print("Study...")
+class Tutor(TeacherM,StudentM):
+    pass
+t = Tutor()
+print(Tutor.__mro__)
+print(t.__dict__)
+print(Tutor.__dict__)
+
+#Mixin实现
+
+class TeacherMixin():
+    def work(self):
+        print("work...")
+class StudentMixin():
+    def study(self):
+        print("study")
+class TutorM(PersonM, TeacherMixin, StudentMixin):
+    pass
+
+tt = TutorM()
+print(TutorM.__mro__)
+print(tt.__dict__)
+print(TutorM.__dict__)
+
+print(dir(TeacherMixin))
+
+
+
+
