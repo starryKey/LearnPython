@@ -299,6 +299,22 @@ print(TutorM.__dict__)
 
 print(dir(TeacherMixin))
 
+class PersonK():
+    def fget(self):
+        return self._name * 2
+
+    def fset(self, name):
+        self._name = name.upper()
+
+    def fdel(self):
+        self._name = "NoName"
+
+    name = property(fget, fset, fdel, "测试")
+
+
+per1 = PersonK()
+per1.name = "Jack"
+print(per1.name)
 
 
 
