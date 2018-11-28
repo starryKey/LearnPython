@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543332208455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
+    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543413485275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-869535818">
@@ -39,55 +39,55 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="4696" />
-          <entry key="py" value="3597" />
-          <entry key="txt" value="122" />
+          <entry key="md" value="4727" />
+          <entry key="py" value="3736" />
+          <entry key="txt" value="124" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4696" />
-          <entry key="PLAIN_TEXT" value="122" />
-          <entry key="Python" value="3597" />
+          <entry key="Markdown" value="4727" />
+          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="Python" value="3736" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="200" column="22" lean-forward="true" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
+              <first_editor relative-caret-position="337">
+                <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="310" column="4" lean-forward="true" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
+            <state relative-caret-position="311">
+              <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
               <folding>
-                <marker date="1543332756015" expanded="true" signature="33:38" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="175:180" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="1592:1639" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="2927:2932" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="2949:2954" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="2973:2978" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="3056:3540" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="3085:3094" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="3434:3537" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="3568:3573" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="3633:3638" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="4292:4448" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="4513:4518" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="4705:4710" ph="..." />
-                <marker date="1543332756015" expanded="true" signature="5263:5533" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="33:38" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="175:180" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="1592:1639" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="2927:2932" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="2949:2954" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="2973:2978" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="3056:3540" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="3085:3094" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="3434:3537" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="3568:3573" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="3633:3638" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="4292:4448" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="4513:4518" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="4705:4710" ph="..." />
+                <marker date="1543413565862" expanded="true" signature="5290:5764" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,8 +116,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Note/Python基础-08-OOP.md" />
-        <option value="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" />
         <option value="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" />
+        <option value="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" />
       </list>
     </option>
   </component>
@@ -128,8 +128,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-33" />
-    <option name="y" value="23" />
+    <option name="x" value="34" />
+    <option name="y" value="24" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -315,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543248424861</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="属性">
+      <created>1543333007615</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543333007615</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -328,7 +335,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="86" width="1280" height="777" extended-state="0" />
+    <frame x="429" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -339,11 +346,11 @@
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49827883" weight="0.4122807" />
       <window_info anchor="bottom" id="Python Console" sideWeight="0.4983845" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49919224" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.22051696" side_tool="true" visible="true" weight="0.49343064" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.22051696" side_tool="true" visible="true" weight="0.29927006" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6332795" weight="0.3109489" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.779483" visible="true" weight="0.49343064" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.779483" visible="true" weight="0.29927006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -380,7 +387,8 @@
     <MESSAGE value="继承,构造函数等" />
     <MESSAGE value="多继承,构造函数等" />
     <MESSAGE value="多态,类中相关函数等" />
-    <option name="LAST_COMMIT_MESSAGE" value="多态,类中相关函数等" />
+    <MESSAGE value="属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="属性" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,37 +454,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="200" column="22" lean-forward="true" selection-start-line="200" selection-start-column="22" selection-end-line="200" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
+          <folding>
+            <marker date="1543413565862" expanded="true" signature="33:38" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="175:180" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="1592:1639" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="2927:2932" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="2949:2954" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="2973:2978" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="3056:3540" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="3085:3094" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="3434:3537" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="3568:3573" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="3633:3638" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="4292:4448" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="4513:4518" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="4705:4710" ph="..." />
+            <marker date="1543413565862" expanded="true" signature="5290:5764" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="310" column="4" lean-forward="true" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
-          <folding>
-            <marker date="1543332756015" expanded="true" signature="33:38" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="175:180" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="1592:1639" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="2927:2932" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="2949:2954" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="2973:2978" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="3056:3540" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="3085:3094" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="3434:3537" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="3568:3573" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="3633:3638" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="4292:4448" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="4513:4518" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="4705:4710" ph="..." />
-            <marker date="1543332756015" expanded="true" signature="5263:5533" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="337">
+            <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

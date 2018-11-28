@@ -300,6 +300,7 @@ print(TutorM.__dict__)
 print(dir(TeacherMixin))
 
 class PersonK():
+    # fget、fset、fdel函数名可任意
     def fget(self):
         return self._name * 2
 
@@ -310,11 +311,19 @@ class PersonK():
         self._name = "NoName"
 
     name = property(fget, fset, fdel, "测试")
+    #对象后加()触发执行
+    def __call__(self, *args, **kwargs):
+        print("__call__")
 
 
 per1 = PersonK()
 per1.name = "Jack"
 print(per1.name)
-
+print(PersonK.__dict__)
+print(PersonK.__doc__)
+print(PersonK.__name__)
+print(PersonK.__bases__)
+print(PersonK.__mro__)
+per1()
 
 
