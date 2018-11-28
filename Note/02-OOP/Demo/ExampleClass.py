@@ -314,8 +314,10 @@ class PersonK():
     #对象后加()触发执行
     def __call__(self, *args, **kwargs):
         print("__call__")
-
-
+    def __str__(self):
+        return "TestStr(%s)"% self.name
+    # def __repr__(self):
+    #     return "TestRepr(%s)"% self.name
 per1 = PersonK()
 per1.name = "Jack"
 print(per1.name)
@@ -324,6 +326,75 @@ print(PersonK.__doc__)
 print(PersonK.__name__)
 print(PersonK.__bases__)
 print(PersonK.__mro__)
+# 对象当函数使用时，调用__call__方法
+
 per1()
 
+print(per1)
+print(per1.__str__())
+print(per1.__repr__())
 
+
+class PersonM():
+    name = "John"
+    age = 18
+    def __getattr__(self, item):
+        print("没找到呀")
+    def __setattr__(self, key, value):
+        print("设置属性 key = {0}, value = {1}".format(key,value))
+        #下面语句会造成死循环
+        # self.key = key
+        #为了避免死循环,给父类设置
+        super().__setattr__(key, value)
+        # super.__setattr__(self,key,value)
+        #使用> <等比较符号时会触发
+    def __gt__(self, other):
+        return  self.name > other.name
+
+perM = PersonM()
+
+print(perM.name)
+print(perM.log)
+
+perM.sub = "iOS"
+print(PersonM.__dict__)
+
+class Manager():
+    def __init__(self,name):
+        self.name = name
+    def __gt__(self, other):
+        return  self.name < other.name
+
+
+m1 = Manager("Jack")
+m2 = Manager("Tom")
+print(m1 > m2)
+
+# 类和对象的三种方法
+class PersonF():
+    # 实例方法
+    def eat(self):
+        print(self)
+        print("I am eating....")
+
+    # 类方法
+    # 类方法的第一个参数，一般命名为cls，区别于self
+    @classmethod
+    def play(cls):
+        print(cls)
+        print("I am playing....")
+    #静态方法
+    # 不需要使用第一个参数表示自身或类
+    @staticmethod
+    def say():
+        print("Saying....")
+
+personf = PersonF()
+#实例方法
+personf.eat()
+#类方法
+personf.play()
+PersonF.play()
+#静态方法
+PersonF.say()
+personf.say()

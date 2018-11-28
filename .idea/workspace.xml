@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
+    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="类的内置属性">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" afterDir="false" />
@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543413485275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
+    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543418373870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-869535818">
@@ -39,16 +39,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="4727" />
-          <entry key="py" value="3736" />
-          <entry key="txt" value="124" />
+          <entry key="md" value="5432" />
+          <entry key="py" value="4575" />
+          <entry key="txt" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4727" />
-          <entry key="PLAIN_TEXT" value="124" />
-          <entry key="Python" value="3736" />
+          <entry key="Markdown" value="5432" />
+          <entry key="PLAIN_TEXT" value="130" />
+          <entry key="Python" value="4575" />
         </counts>
       </usages-collector>
     </session>
@@ -60,7 +60,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="337">
-                <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+                <caret line="252" column="18" lean-forward="true" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -70,24 +70,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
+            <state relative-caret-position="417">
+              <caret line="393" column="13" lean-forward="true" selection-start-line="393" selection-start-column="13" selection-end-line="393" selection-end-column="13" />
               <folding>
-                <marker date="1543413565862" expanded="true" signature="33:38" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="175:180" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="1592:1639" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="2927:2932" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="2949:2954" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="2973:2978" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="3056:3540" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="3085:3094" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="3434:3537" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="3568:3573" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="3633:3638" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="4292:4448" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="4513:4518" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="4705:4710" ph="..." />
-                <marker date="1543413565862" expanded="true" signature="5290:5764" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="33:38" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="175:180" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="1592:1639" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="2927:2932" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="2949:2954" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="2973:2978" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="3056:3540" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="3085:3094" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="3434:3537" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="3568:3573" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="3633:3638" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="4292:4448" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="4513:4518" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="4705:4710" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="5290:5975" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="5993:5998" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="6537:6662" ph="..." />
+                <marker date="1543418373860" expanded="true" signature="6747:6752" ph="..." />
               </folding>
             </state>
           </provider>
@@ -116,8 +119,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Note/Python基础-08-OOP.md" />
-        <option value="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" />
         <option value="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" />
+        <option value="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" />
       </list>
     </option>
   </component>
@@ -128,8 +131,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="24" />
+    <option name="x" value="-29" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -322,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543333007615</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="类的内置属性">
+      <created>1543413758988</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543413758988</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -335,11 +345,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="429" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="-29" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2552504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24798061" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -388,7 +398,8 @@
     <MESSAGE value="多继承,构造函数等" />
     <MESSAGE value="多态,类中相关函数等" />
     <MESSAGE value="属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="属性" />
+    <MESSAGE value="类的内置属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="类的内置属性" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,24 +467,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="329" lean-forward="true" selection-start-line="329" selection-end-line="329" />
+        <state relative-caret-position="417">
+          <caret line="393" column="13" lean-forward="true" selection-start-line="393" selection-start-column="13" selection-end-line="393" selection-end-column="13" />
           <folding>
-            <marker date="1543413565862" expanded="true" signature="33:38" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="175:180" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="1592:1639" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="2927:2932" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="2949:2954" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="2973:2978" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="3056:3540" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="3085:3094" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="3434:3537" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="3568:3573" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="3633:3638" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="4292:4448" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="4513:4518" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="4705:4710" ph="..." />
-            <marker date="1543413565862" expanded="true" signature="5290:5764" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="33:38" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="175:180" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="1592:1639" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="2927:2932" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="2949:2954" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="2973:2978" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="3056:3540" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="3085:3094" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="3434:3537" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="3568:3573" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="3633:3638" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="4292:4448" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="4513:4518" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="4705:4710" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="5290:5975" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="5993:5998" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="6537:6662" ph="..." />
+            <marker date="1543418373860" expanded="true" signature="6747:6752" ph="..." />
           </folding>
         </state>
       </provider>
@@ -482,7 +496,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="337">
-            <caret line="214" column="20" selection-start-line="214" selection-start-column="20" selection-end-line="214" selection-end-column="20" />
+            <caret line="252" column="18" lean-forward="true" selection-start-line="252" selection-start-column="18" selection-end-line="252" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
