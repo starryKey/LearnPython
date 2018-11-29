@@ -398,3 +398,55 @@ PersonF.play()
 #静态方法
 PersonF.say()
 personf.say()
+
+# 属性的三种操作用法
+# 1、赋值
+# 2、读取
+# 3、删除
+class StudentA():
+    def __init__(self,name):
+        self.name = name
+        self.age = 18
+a = StudentA("Tomy")
+#读取
+print(a.name)
+print(a.age)
+#赋值
+a.age = 24
+print(a.age)
+# 删除
+# del a.age
+print(a.age)
+
+# 类属性 property
+# 应用场景
+# 对变量除了普通的三种操作，还想增加一些附加的操作，则可通过property完成
+class A():
+    def __init__(self):
+        self.name = "Tom"
+        self.age = 20
+    #模拟读取操作
+    def fget(self):
+        print("我被读取了")
+        return self.name
+    #模拟写入操作
+    def fset(self, name):
+        print("我被写入了")
+        self.name = name + "测试写入"
+    #模拟删除操作
+    def fdel(self):
+        pass
+    # property的四个参数顺序是固定的
+    # 第一个参数代表读取的时候调用
+    # 第二个参数代表写入的时候调用
+    # 第三个参数是删除
+    # 第四个doc
+    name2 = property(fget, fset, fdel, "这是一个property")
+a = A()
+print(a.name)
+print(a.name2)
+a.name2 = "Jack"
+# print(a.name2)
+
+
+
