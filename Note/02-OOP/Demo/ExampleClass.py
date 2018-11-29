@@ -448,5 +448,105 @@ print(a.name2)
 a.name2 = "Jack"
 # print(a.name2)
 
+#抽象
+class AnimalA():
+    #通常是子类继承，重写对应的的方法等；或者说父类不实现方法，子类实现对应的方法
+    def sayHello(self):
+        pass
 
 
+# 抽象类的实现
+import abc
+#声明一个类并且指定当前类的元类
+
+class Human(metaclass=abc.ABCMeta):
+
+    # 定义一个抽象的方法
+    @abc.abstractmethod
+    def smoking(self):
+        pass
+
+    # 定义类抽象方法
+    @classmethod
+    def drink(cls):
+        pass
+
+    #定义静态类抽象方法
+    @staticmethod
+    def play():
+        pass
+
+    def sleeping(self):
+        print("Sleeping......")
+
+# 自定义类,类可以自己组装
+
+class B():
+    pass
+
+# 任意定义一个函数
+def say(self):
+    print("Saying......")
+
+say(9)
+#函数名可以当变量用
+B.say = say
+b = B()
+b.say()
+
+# 自己组装类，示例
+
+from types import MethodType
+class Mo():
+    pass
+#任意定义一个函数
+def sayHaha(self):
+    print("Say haha .....")
+
+mo = Mo()
+mo.sayHaha = MethodType(sayHaha, Mo)
+mo.sayHaha()
+
+
+# help(MethodType)
+#对象类型
+# help(type)
+
+# 利用type造一个类
+# 先定义类应该具有的成员函数
+
+def sayHi(self):
+    print("sayHi....")
+def talk(self):
+    print("talking")
+
+#用type来创建一个类
+# (cls, what, bases=None, dict=None):
+TestA = type("AName", (object,), {"class_say":sayHi,"class_talk":talk})
+
+aa = TestA()
+print(aa.__dict__)
+help(TestA)
+
+help(aa)
+dir(aa)
+#
+aa.class_say()
+aa.class_talk()
+
+
+# 元类
+# 元类写法是固定的，它必须继承自type
+
+class TestMetaClass(type):
+    # 注意以下写法
+    def __new__(cls, *args, **kwargs):
+        #自己的业务处理
+        print("这是元类")
+        return type.__new__(cls, *args, **kwargs)
+
+# 定义玩就可以直接用了,注意写法
+class TeacherHH(object, metaclass=TestMetaClass):
+    pass
+tthh = TeacherHH()
+tthh.__dict__
