@@ -3,8 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" beforeDir="false" afterPath="$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-01-环境配置-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-01-环境配置-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-02-变量-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-02-变量-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-03-变量+字符串-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-03-变量+字符串-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-04-分支-循环-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-04-分支-循环-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-05-函数-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-05-函数-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-06-作用域-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-06-作用域-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-07-内置数据结构-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-07-内置数据结构-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/.ipynb_checkpoints/Python基础-08-OOP基础-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/.ipynb_checkpoints/Python基础-08-OOP基础-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/Python基础-01-环境配置.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/Python基础-01-环境配置.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/Python基础-02-变量.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/Python基础-02-变量.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/Python基础-03-变量+字符串.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/Python基础-03-变量+字符串.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/Python基础-04-分支-循环.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/Python基础-04-分支-循环.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/Python基础-05-函数.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/Python基础-05-函数.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/Python基础-06-作用域.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/Python基础-06-作用域.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note/01-语法基础/Python基础-07-内置数据结构.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/01-语法基础/Python基础-07-内置数据结构.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543509523607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
+    <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543583325717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-869535818">
@@ -26,29 +39,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="10" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="10" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="5947" />
-          <entry key="py" value="6348" />
-          <entry key="txt" value="163" />
+          <entry key="py" value="6361" />
+          <entry key="txt" value="174" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="5947" />
-          <entry key="PLAIN_TEXT" value="163" />
-          <entry key="Python" value="6348" />
+          <entry key="PLAIN_TEXT" value="174" />
+          <entry key="Python" value="6361" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="279" column="17" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
+              <first_editor relative-caret-position="263">
+                <caret line="275" column="22" lean-forward="true" selection-start-line="275" selection-start-column="22" selection-end-line="275" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -79,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="551" column="13" lean-forward="true" selection-start-line="551" selection-start-column="13" selection-end-line="551" selection-end-column="13" />
+            <state relative-caret-position="297">
+              <caret line="552" lean-forward="true" selection-start-line="552" selection-end-line="552" />
               <folding>
                 <marker date="1543509546647" expanded="true" signature="33:38" ph="..." />
                 <marker date="1543509546647" expanded="true" signature="175:180" ph="..." />
@@ -110,6 +123,7 @@
                 <marker date="1543509546647" expanded="true" signature="8464:8469" ph="..." />
                 <marker date="1543509546647" expanded="true" signature="9179:9184" ph="..." />
                 <marker date="1543509546647" expanded="true" signature="9179:9320" ph="..." />
+                <marker date="1543509546647" expanded="true" signature="9192:9197" ph="..." />
                 <marker date="1543509546647" expanded="true" signature="9231:9240" ph="..." />
                 <marker date="1543509546647" expanded="true" signature="9389:9394" ph="..." />
               </folding>
@@ -117,8 +131,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="12" selection-start-column="12" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-06-作用域.ipynb">
+        <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-06-作用域.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -127,7 +153,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-07-内置数据结构.ipynb">
+        <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-07-内置数据结构.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -136,7 +162,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-02-变量.ipynb">
+        <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-02-变量.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -145,7 +171,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-03-变量+字符串.ipynb">
+        <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-03-变量+字符串.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -154,7 +180,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-05-函数.ipynb">
+        <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-05-函数.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="11" />
@@ -163,7 +189,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-04-分支-循环.ipynb">
+        <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-04-分支-循环.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="0" />
@@ -210,9 +236,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
-    <option name="y" value="84" />
-    <option name="width" value="1343" />
+    <option name="x" value="54" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -229,30 +255,6 @@
             <path>
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Note" type="462c0819:PsiDirectoryNode" />
-              <item name="01-语法基础" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Note" type="462c0819:PsiDirectoryNode" />
-              <item name="02-OOP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="Note" type="462c0819:PsiDirectoryNode" />
-              <item name="02-OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,6 +273,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Note/01-语法基础" />
       <recent name="$PROJECT_DIR$/Note/02-OOP" />
     </key>
@@ -425,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543505605905</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="1、抽象类和自定义类等">
+      <created>1543509656452</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543509656452</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -438,22 +448,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="157" y="28" width="1343" height="777" extended-state="0" />
+    <frame x="54" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28285933" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29725364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49827883" weight="0.4122807" />
       <window_info anchor="bottom" id="Python Console" sideWeight="0.4983845" weight="0.329927" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49919224" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.22444274" side_tool="true" visible="true" weight="0.31970802" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.22455573" side_tool="true" visible="true" weight="0.31970802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62951577" weight="0.3109489" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.7755573" visible="true" weight="0.31970802" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77544427" visible="true" weight="0.31970802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
@@ -494,7 +504,8 @@
     <MESSAGE value="类的内置属性" />
     <MESSAGE value="1、魔术方法&#10;2、类和对象的三种方法" />
     <MESSAGE value="1、属性的三种操作方法及类属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、属性的三种操作方法及类属性" />
+    <MESSAGE value="1、抽象类和自定义类等" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、抽象类和自定义类等" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,62 +574,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-06-作用域.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-07-内置数据结构.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-03-变量+字符串.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-04-分支-循环.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-02-变量.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-05-函数.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Note/02-OOP/Python基础-08-OOP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="279" column="17" selection-start-line="279" selection-start-column="17" selection-end-line="279" selection-end-column="17" />
+          <first_editor relative-caret-position="263">
+            <caret line="275" column="22" lean-forward="true" selection-start-line="275" selection-start-column="22" selection-end-line="275" selection-end-column="22" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-06-作用域.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-07-内置数据结构.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-03-变量+字符串.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-04-分支-循环.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-02-变量.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Note/01-语法基础/Python基础-05-函数.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Note/02-OOP/Demo/ExampleClass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="551" column="13" lean-forward="true" selection-start-line="551" selection-start-column="13" selection-end-line="551" selection-end-column="13" />
+        <state relative-caret-position="297">
+          <caret line="552" lean-forward="true" selection-start-line="552" selection-end-line="552" />
           <folding>
             <marker date="1543509546647" expanded="true" signature="33:38" ph="..." />
             <marker date="1543509546647" expanded="true" signature="175:180" ph="..." />
@@ -645,9 +656,20 @@
             <marker date="1543509546647" expanded="true" signature="8464:8469" ph="..." />
             <marker date="1543509546647" expanded="true" signature="9179:9184" ph="..." />
             <marker date="1543509546647" expanded="true" signature="9179:9320" ph="..." />
+            <marker date="1543509546647" expanded="true" signature="9192:9197" ph="..." />
             <marker date="1543509546647" expanded="true" signature="9231:9240" ph="..." />
             <marker date="1543509546647" expanded="true" signature="9389:9394" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="12" selection-start-column="12" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
