@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/P01.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/P01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/P02.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/P02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/P03.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/P03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/P04.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/P04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/P05.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/P05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/P06.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/P06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/P07.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/P07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/PythonDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/PythonDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg01/Pa01.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/pkg01/Pa01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/pkg01/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg02/PP01.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/pkg02/PP01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg02/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/pkg02/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/Python高级-09-包.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/09-包/Python高级-09-包.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +27,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$P07.coverage" NAME="P07 Coverage Results" MODIFIED="1543590386823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$P04.coverage" NAME="P04 Coverage Results" MODIFIED="1543587985699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$P02.coverage" NAME="P02 Coverage Results" MODIFIED="1543586195571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
+    <SUITE FILE_PATH="coverage/LearnPython$ExceptDemo.coverage" NAME="ExceptDemo Coverage Results" MODIFIED="1543671944634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/10-异常使用" />
     <SUITE FILE_PATH="coverage/LearnPython$PythonDemo.coverage" NAME="PythonDemo Coverage Results" MODIFIED="1543585893164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$P06.coverage" NAME="P06 Coverage Results" MODIFIED="1543589232953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543583325717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
@@ -25,48 +39,63 @@
     <session id="-869535818">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="10" />
-          <entry key="md" value="5" />
-          <entry key="py" value="45" />
+          <entry key="md" value="6" />
+          <entry key="py" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="10" />
-          <entry key="Markdown" value="5" />
-          <entry key="Python" value="45" />
+          <entry key="Markdown" value="6" />
+          <entry key="Python" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="8232" />
-          <entry key="py" value="7342" />
-          <entry key="txt" value="182" />
+          <entry key="md" value="9172" />
+          <entry key="py" value="8058" />
+          <entry key="txt" value="201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="8232" />
-          <entry key="PLAIN_TEXT" value="182" />
-          <entry key="Python" value="7342" />
+          <entry key="Markdown" value="9172" />
+          <entry key="PLAIN_TEXT" value="201" />
+          <entry key="Python" value="8058" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Python高级-09-包.md">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/Python高级-09-包.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="98">
-                <caret line="109" column="12" lean-forward="true" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+              <first_editor relative-caret-position="212">
+                <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/10-异常使用/Python高级-10-异常.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="183">
+                <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,18 +103,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg02/__init__.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/10-异常使用/ExceptDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1543590359230" expanded="true" signature="33:34" ph="..." />
-              </folding>
+            <state relative-caret-position="291">
+              <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg02/PP01.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg02/PP01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -94,25 +121,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P06.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P06.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P07.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P07.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg01/Pa01.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg01/Pa01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
@@ -121,20 +157,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P01.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="19" selection-end-line="19" />
               <folding>
                 <marker date="1543586268712" expanded="true" signature="38:43" ph="..." />
-                <marker date="1543586268712" expanded="true" signature="248:359" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg01/__init__.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg01/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
@@ -187,6 +222,8 @@
         <option value="$PROJECT_DIR$/03-高级语法/Demo/pkg02/__init__.py" />
         <option value="$PROJECT_DIR$/03-高级语法/Demo/P07.py" />
         <option value="$PROJECT_DIR$/03-高级语法/Python高级-09-包.md" />
+        <option value="$PROJECT_DIR$/03-高级语法/10-异常使用/ExceptDemo.py" />
+        <option value="$PROJECT_DIR$/03-高级语法/10-异常使用/Python高级-10-异常.md" />
       </list>
     </option>
   </component>
@@ -196,11 +233,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-40" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="643" />
     <option name="y" value="23" />
-    <option name="width" value="1318" />
-    <option name="height" value="759" />
+    <option name="width" value="1210" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -220,18 +257,19 @@
             <path>
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
-              <item name="02-OOP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="09-包" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
+              <item name="10-异常使用" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,6 +288,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03-高级语法" />
       <recent name="$PROJECT_DIR$/03-高级语法/Demo/09-包" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Note/01-语法基础" />
@@ -268,8 +307,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.P07">
-    <configuration name="P03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ExceptDemo">
+    <configuration name="ExceptDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,12 +316,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/10-异常使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/Demo/09-包/P03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/10-异常使用/ExceptDemo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -380,19 +419,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.P03" />
       <item itemvalue="Python.P04" />
       <item itemvalue="Python.P05" />
       <item itemvalue="Python.P06" />
       <item itemvalue="Python.P07" />
+      <item itemvalue="Python.ExceptDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ExceptDemo" />
         <item itemvalue="Python.P07" />
         <item itemvalue="Python.P06" />
         <item itemvalue="Python.P05" />
         <item itemvalue="Python.P04" />
-        <item itemvalue="Python.P03" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543583539643</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="1、Python高级-模块和包">
+      <created>1543590940559</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1543590940559</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -539,30 +585,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-40" y="23" width="1318" height="759" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28840125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21163167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49827883" weight="0.4122807" />
-      <window_info anchor="bottom" id="Python Console" sideWeight="0.4983845" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49919224" weight="0.329927" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.22483766" side_tool="true" weight="0.32064423" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62951577" weight="0.41751826" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77516234" visible="true" weight="0.32833582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62951577" weight="0.18832117" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77516234" visible="true" weight="0.3270073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49827883" weight="0.41167882" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22483766" side_tool="true" weight="0.32064423" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49919224" weight="0.329927" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4983845" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -620,7 +666,8 @@
     <MESSAGE value="1、属性的三种操作方法及类属性" />
     <MESSAGE value="1、抽象类和自定义类等" />
     <MESSAGE value="目录调整" />
-    <option name="LAST_COMMIT_MESSAGE" value="目录调整" />
+    <MESSAGE value="1、Python高级-模块和包" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、Python高级-模块和包" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,13 +691,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Note/Python基础-07-内置数据结构.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Note/Python基础-07-内置数据结构.ipynb" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -707,36 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="552" lean-forward="true" selection-start-line="552" selection-end-line="552" />
-          <folding>
-            <marker date="1543509546647" expanded="true" signature="33:38" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="175:180" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="1592:1639" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="2927:2932" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="2949:2954" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="2973:2978" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="3056:3540" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="3085:3094" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="3434:3537" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="3568:3573" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="3633:3638" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="4292:4448" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="4513:4518" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="4705:4710" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="5290:5975" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="5993:5998" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="6537:6662" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="6747:6752" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="7219:7224" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="8174:8180" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="8174:8437" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="8366:8375" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="8464:8469" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="9179:9184" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="9179:9320" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="9192:9197" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="9231:9240" ph="..." />
-            <marker date="1543509546647" expanded="true" signature="9389:9394" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,14 +761,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Python高级语法-09-Note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/Python高级语法-09-Note.md" />
     <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-07-内置数据结构.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -789,31 +793,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P02.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P03.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P04.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P04.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -824,42 +821,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/PythonDemo.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/PythonDemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg02/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1543585905076" expanded="true" signature="68:70" ph="..." />
+            <marker date="1543590359230" expanded="true" signature="33:34" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg01/Pa01.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg02/PP01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" selection-end-line="19" />
+          <folding>
+            <marker date="1543586268712" expanded="true" signature="38:43" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg01/Pa01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" selection-end-line="19" />
-          <folding>
-            <marker date="1543586268712" expanded="true" signature="38:43" ph="..." />
-            <marker date="1543586268712" expanded="true" signature="248:359" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P06.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg01/__init__.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg01/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
@@ -869,43 +880,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg02/PP01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/pkg02/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1543590359230" expanded="true" signature="33:34" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/P07.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P07.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/09-包/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Demo/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/P05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Python高级-09-包.md">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/Python高级-09-包.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="98">
-            <caret line="109" column="12" lean-forward="true" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+          <first_editor relative-caret-position="212">
+            <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/10-异常使用/ExceptDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="65" column="8" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/10-异常使用/Python高级-10-异常.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="183">
+            <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
