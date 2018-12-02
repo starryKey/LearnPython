@@ -117,6 +117,43 @@ for i in range(1,20):
         # time.sleep(5)
         print(i)
 
+
+# t5 = time.clock()
+# time.sleep(3)
+# t6 = time.clock()
+# print(t6 - t5)
+
+# 按格式输出时间
+# strftime：将时间元组转化为自定义的字符串格式
+
+"""
+
+格式  含义  备注
+%a  本地（locale）简化星期名称    
+%A  本地完整星期名称    
+%b  本地简化月份名称    
+%B  本地完整月份名称    
+%c  本地相应的日期和时间表示    
+%d  一个月中的第几天（01 - 31）   
+%H  一天中的第几个小时（24 小时制，00 - 23）   
+%I  一天中的第几个小时（12 小时制，01 - 12）   
+%j  一年中的第几天（001 - 366）  
+%m  月份（01 - 12） 
+%M  分钟数（00 - 59）    
+%p  本地 am 或者 pm 的相应符    注1
+%S  秒（01 - 61）  注2
+%U  一年中的星期数（00 - 53 星期天是一个星期的开始）第一个星期天之前的所有天数都放在第 0 周   注3
+%w  一个星期中的第几天（0 - 6，0 是星期天） 注3
+%W  和 %U 基本相同，不同的是 %W 以星期一为一个星期的开始  
+%x  本地相应日期  
+%X  本地相应时间  
+%y  去掉世纪的年份（00 - 99）    
+%Y  完整的年份   
+%z  用 +HHMM 或 -HHMM 表示距离格林威治的时区偏移（H 代表十进制的小时数，M 代表十进制的分钟数）      
+%%  %号本身
+
+"""
+
 formatter_ymdHMS = "%Y-%m-%d %H:%M:%S"
 formatter_ymdHM = "%Y-%m-%d %H:%M"
 formatter_ymd = "%Y-%m-%d"
@@ -147,3 +184,109 @@ def getdateStr_ymd(timeRes):
 
 forTime = getdateStr_ymd("2018-12-02 22:36:16")
 print(forTime)
+
+t7 = time.localtime()
+ft = time.strftime("%Y年%m月%d日 %H:%m", t7)
+print(ft)
+
+
+# 03 datetime 模块
+# datetime提供日期和时间的运算和表示
+# datetime 常见属性
+# datetime.date: 一个理想的日期，提供year，month, day 属性
+
+import datetime
+
+dt1 = datetime.date(2018, 12, 2)
+print(dt1)
+print(dt1.year)
+print(dt1.month)
+print(dt1.day)
+
+# datetime.time: 提供一个理想的时间，提供hour，minute,second, microsec的内容
+# datetime.datetime: 提供日期和时间的组合
+# datetime.timedelta: 提供一个时间差，时间长度
+
+dt2 = datetime.time(23,16,36)
+print("时{0}分{1}秒{2}".format(dt2.hour,dt2.minute, dt2.second))
+
+# datetime.datetime
+
+from datetime import datetime
+# 常用类方法：
+# today
+# now
+# utcnow
+#fromtimestamp： 从时间戳中返回本地时间
+
+dt3 = datetime(2018,12,2)
+print(dt3.today())
+print(dt3.now())
+
+print(time.time())
+print(dt3.fromtimestamp(time.time()))
+
+# datetime.timedelta
+# 表示一个时间间隔
+
+from datetime import  datetime, timedelta
+
+td1 = datetime.now()
+td1.strftime("%Y-%m-%d %H:%M:%S")
+
+print(td1)
+
+td2 = timedelta(hours=1)
+# 当前时间加上时间间隔后，把得到的一小时以后的时间格式化输出
+
+print((td1+td2).strftime("%Y-%m-%d %H:%M:%S"))
+
+
+# 04 timeit - 时间测量工具
+import timeit
+
+# 测量程序运行时间间隔实验
+
+# 示例01
+def p():
+    time.sleep(1)
+
+det1 = time.time()
+p()
+print(time.time()-det1)
+
+cDemo = '''
+sum = []
+for i in range(1000):
+    sum.append(i)
+'''
+
+# 示例02
+# 利用timeit 调用代码，执行10000次，查看运行时间
+det2 = timeit.timeit(stmt="[i for i in range(1000)]", number=10000)
+# 测试代码C执行10000次运行结果
+det3 = timeit.timeit(stmt=cDemo, number=10000)
+
+print(det2)
+print(det3)
+
+# timeit 可以执行一个函数，来测量一个函数的执行时间
+
+def doIt():
+    num = 3
+    for i in range(num):
+        print(i)
+
+det4 = timeit.timeit(stmt=doIt, number=10)
+print(det4)
+
+sDemo = '''
+def doIt(num):
+    for i in range(num):
+        print(i)
+'''
+#执行doIt(num):
+#setup负责把环境变量准备好
+
+det5 = timeit.timeit("doIt(num)", setup=sDemo+"num=3", number=10)
+print(det5)
