@@ -80,3 +80,48 @@
  
 ## timeit模块
  - 时间测量工具
+ 
+## datetime.datetime 模块
+ - 比较好用的时间类
+
+## os 操作系统相关
+ - 跟操作系统相关，主要是文件操作
+ - 子系统相关的操作，主要包含在三个模块里
+    - os, 操作系统目录相关
+    - os.path, 系统路径相关
+    - shutil,高级文件操作， 目录树的操作，文件赋值， 删除， 移动
+    
+ - 路径
+    - 绝对路径：总是从根目录开始
+    - 相对路径：基本以当前环境为开始的一个相对的地方
+    
+### getcwd() 获取当前的工作目录
+
+### chdir() 改变当前的工作目录
+
+### listdir() 获取一个目录中所有的子目录和文件的名称列表
+
+### makedirs() 递归创建文件夹
+
+### system() 运行系统shell命名
+
+### getenv() 获取指定的系统环境变量值
+
+### exit 对出当前程序
+
+### 值相关
+ - os.curdir:  当前目录
+ - os.pardir:  父亲目录
+ - os.sep: 当前系统的路径分隔符
+    - windows : "\"
+    - linux : "/"
+ - os.linesep: 当前系统的换行符
+    - windows : "\r\n"
+    - unix, linux,macos: "\n"
+ - os.name:  当前系统的名称
+    - windows: nt
+    - mac, unix, linux: posix
+
+ 
+    
+    

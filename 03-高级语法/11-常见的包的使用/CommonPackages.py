@@ -93,7 +93,7 @@ print(t)
 
 # asctime() 返回元组的正常字符串化之后的时间格式
 # 格式 time.asctime(时间元组)
-# 返回值:字符传 Tue Jun 6 11:11:00 2017
+# 返回值:字符串 Tue Jun 6 11:11:00 2017
 tl = time.localtime()
 tt = time.asctime(tl)
 help(time.asctime)
@@ -251,9 +251,9 @@ import timeit
 def p():
     time.sleep(1)
 
-det1 = time.time()
-p()
-print(time.time()-det1)
+# det1 = time.time()
+# p()
+# print(time.time()-det1)
 
 cDemo = '''
 sum = []
@@ -263,12 +263,12 @@ for i in range(1000):
 
 # 示例02
 # 利用timeit 调用代码，执行10000次，查看运行时间
-det2 = timeit.timeit(stmt="[i for i in range(1000)]", number=10000)
+# det2 = timeit.timeit(stmt="[i for i in range(1000)]", number=10000)
 # 测试代码C执行10000次运行结果
-det3 = timeit.timeit(stmt=cDemo, number=10000)
+# det3 = timeit.timeit(stmt=cDemo, number=10000)
 
-print(det2)
-print(det3)
+# print(det2)
+# print(det3)
 
 # timeit 可以执行一个函数，来测量一个函数的执行时间
 
@@ -277,8 +277,8 @@ def doIt():
     for i in range(num):
         print(i)
 
-det4 = timeit.timeit(stmt=doIt, number=10)
-print(det4)
+# det4 = timeit.timeit(stmt=doIt, number=10)
+# print(det4)
 
 sDemo = '''
 def doIt(num):
@@ -288,5 +288,84 @@ def doIt(num):
 #执行doIt(num):
 #setup负责把环境变量准备好
 
-det5 = timeit.timeit("doIt(num)", setup=sDemo+"num=3", number=10)
-print(det5)
+# det5 = timeit.timeit("doIt(num)", setup=sDemo+"num=3", number=10)
+# print(det5)
+
+# 05 os模块
+
+import os
+
+#(一)
+# getcwd 获取当前的工作目录
+# 格式 os.getcwd()
+# 返回值：当前工作目录的字符串
+# 当前工作目录就是程序在进行文档相关操作，默认查找文件的目录
+
+mydir = os.getcwd()
+print(mydir)
+
+# (二)
+# chdir()改变当前的工作目录
+# change directory
+# 格式 os.chdir(路径)
+# 返回值: 无
+
+# os.chdir("/Users/wol/Desktop/Study/LearnPython/03-高级语法/")
+# mydir2 = os.getcwd()
+# print(mydir2)
+
+# (三)
+# listdir() 获取一个目录中所有的子目录和文件的名称列表
+# 格式：os.listdir(路径)
+# 返回值: 所有子目录和文件名称的列表
+
+ld = os.listdir()
+print(ld)
+
+# (四)
+# makedirs() 递归创建文件夹
+# 格式：os.makedirs(路径)
+# 返回值: 无
+#  递归路径：多个文件夹夹层包含的路径就是递归路径，例如 "a/b/c/..."
+# help(os.makedirs)
+
+
+# (五)
+# system() 运行系统shell命名
+# 格式：os.system(系统命令)
+# 返回值: 打开一个shell或者终端界面
+# 一般推荐使用subprocess 代替
+
+#例如
+# os.system("ls")
+# rst 返回结果为None
+rst = os.system("cd")
+# 在当前目录下创建一个dir的文件夹
+# rst2 = os.system("touch dir")
+# os.system("rm dir")
+
+# (六)
+# getenv() 获取指定的系统环境变量值
+# 相应的有putenv()
+# 格式：os.getenv("环境变量名")
+# 返回值:  指定环境变量名对应的值
+
+rst3 = os.getenv("PATH")
+print(rst3)
+
+# (七) exit 对出当前程序
+# 格式：exit()
+# 返回值：无
+
+# 值部分
+# - os.curdir:  当前目录
+# - os.pardir:  父亲目录
+# - os.sep: 当前系统的路径分隔符
+# - os.linesep: 当前系统的换行符
+# - os.name:  当前系统的名称
+
+# tips:
+# 在路径相关的操作中，不要手动拼写地址，因为手动拼写的路径可能不具有可移植性， 不同操作系统的操作符不同
+
+print(os.name)
+
