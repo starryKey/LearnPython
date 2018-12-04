@@ -291,6 +291,7 @@ def doIt(num):
 # det5 = timeit.timeit("doIt(num)", setup=sDemo+"num=3", number=10)
 # print(det5)
 
+
 # 05 os模块
 
 import os
@@ -368,4 +369,163 @@ print(rst3)
 # 在路径相关的操作中，不要手动拼写地址，因为手动拼写的路径可能不具有可移植性， 不同操作系统的操作符不同
 
 print(os.name)
+
+# 06 os.path 模块 跟路径相关的模块
+
+import os.path as op
+
+# 01 abspath() 将路径转化为绝对路径
+# 格式： os.path.abspath("路径")
+# 返回值: 路径的绝对路径形式
+
+
+# linux 中
+# . 号， 代表当前目录
+# .. ，代表父目录
+absp = op.abspath(".")
+print(absp)
+
+# 02 basename() 获取路径中的文件部分
+# 格式： os.path.basename("路径")
+# 返回值: 文件名字符串
+
+bn = op.basename("/Users/wol/Desktop/Study/LearnPython")
+print(bn)
+bn = op.basename("/Users/wol/Desktop/Study/LearnPython/03-高级语法")
+print(bn)
+
+# 03 join（) 将多个路径拼合成一个路径
+# 格式 os.path.join(路径1，路径2....)
+# 返回值: 组合之后的新路径字符串
+
+path1 = "Test/Local"
+path2 = "haha.txt"
+
+path3 = op.join(path1,path2)
+print(path3)
+
+# 04 split（) 将路径切割为文件夹部分和当前文件部分
+# 格式 os.path.split(路径)
+# 返回值: 路径和文件名组成的元组
+
+t = op.split(path3)
+print(t)
+
+# 05 isdir() 检测是否是目录
+# 格式os.path.isdir(路径)
+# 返回值: 布尔值
+
+rst4 = op.isdir("Test/Local/haha.txt")
+
+# 06 exists() 检测文件或者目录是否存在
+# 格式os.path.exists(路径)
+# 返回值: 布尔值
+rst5 = os.path.exists("Test/Local/haha.txt")
+print(rst5)
+
+# shutil模块
+
+import shutil
+
+# copy() 复制文件
+# 格式：shutil.copy(来源路径，目标路径)
+# 返回值：返回目标路径
+# 拷贝的同时，可以给文件重命名
+
+# rst6 = shutil.copy("Test/Local/haha.txt","Test/Local/lala.txt")
+# print(rst6)
+
+# copy2() 复制文件,保留元数据（文件信息）
+# 格式：shutil.copy2(来源路径，目标路径)
+# 返回值：返回目标路径
+# 注意，copy和copy2的唯一区别在于copy2 在复制时保留元数据
+
+
+# copyfile() 将一个文件中的内容复制到另外一个文档中
+# 格式 shutil.copyfile("源路径"，"目标路径")
+# 返回值： 无
+
+# move() 移动文件/文件夹
+# 格式 shutil.move("源路径"，"目标路径")
+# 返回值：目标路径
+# rst7 = shutil.move("local/path1/file.txt","/local/path2")
+
+## 归档和压缩
+# - 归档：把多个文件或者文件夹合并到一个文件当中
+# - 压缩：用算法把多个文件或者文件夹无损或者有损合并到一个文件当中
+
+# make_archive() 归档操作
+# 格式: shutil.make_archive("归档之后的目录和文件名"，"后缀"，"需要归档的文件夹")
+# 返回值：归档后的地址
+local = os.curdir
+print(local)
+rst8 = shutil.make_archive("/Users/wol/Desktop/Study/LearnPython/03-高级语法/TestFile02","zip","/Users/wol/Desktop/Study/LearnPython/03-高级语法/11-常见的包的使用/TestFile")
+print(rst8)
+# help(shutil.make_archive)
+
+# unpack_archive() 解包操作
+# 格式: shutil.unpack_archive("归档文件地址"，"解包后的地址")
+# 返回值：解包之后的地址
+
+# zip 压缩包
+# 压缩模块
+import zipfile
+
+# #zipfile.ZipFile(file[, mode[, compression[, allowZip64]]])
+# # 创建一个ZipFile对象，表示一个zip文件。参数file表示文件的路径或类文件对象(file-like object)；
+# 参数mode指示打开zip文件的模式，默认值为’r’，表示读已经存在的zip文件，也可以为’w’或’a’，’w’表示新建一个zip文档或覆盖一个已经存在的zip文档，
+# ’a’表示将数据附加到一个现存的zip文档中。参数compression表示在写zip文档时使用的压缩方法，它的值可以是zipfile. ZIP_STORED 或zipfile. ZIP_DEFLATED。
+# 如果要操作的zip文件大小超过2G，应该将allowZip64设置为True。
+zf1 = zipfile.ZipFile("/Users/wol/Desktop/Study/LearnPython/03-高级语法/TestFile02.zip")
+print(zf1)
+# ZipFile.getinfo(name):
+# 获取zip文档内指定文件的信息。返回一个zipfile.ZipFile对象，它包括文件的详细信息
+
+zf2 = zf1.getinfo("001.txt")
+print(zf2)
+
+# ZipFile.namelist()
+# 获取zip文档内所有文件的名称列表
+
+nl = zf1.namelist()
+print(nl)
+
+# ZipFile.extractall([path[, members[, pwd]]])
+# 解压zip文档中的所有文件到当前目录。参数members的默认值为zip文档内的所有文件名称列表，也可以自己设置，选择要解压的文件名称。
+
+zfRst = zf1.extractall("/Users/wol/Desktop/Study/LearnPython/03-高级语法")
+print(zfRst)
+
+import random
+
+# random模块
+# random() 获取0-1之间的随机小数
+# 格式random。random（）
+# 返回值：随机0-1之间的小数
+
+print(random.random())
+
+# choice() 随机返回序列中的某个值
+# 格式 random.choice(序列)
+# 返回值 序列中的某个值
+
+li = [str(i) + "Test" for i in range(10)]
+print(li)
+result1 = random.choice(li)
+print(result1)
+
+# shuffle() 随机打乱列表
+# 格式：random.shuffle(列表)
+# 返回值: 打乱顺序后的列表
+
+li2 = [i for i in range(10)]
+print(li2)
+random.shuffle(li2)
+print(li2)
+
+# randint(a,b): 返回一个a到b之间的随机整数，包含a和b
+
+print(random.randint(0,100))
+
+
 
