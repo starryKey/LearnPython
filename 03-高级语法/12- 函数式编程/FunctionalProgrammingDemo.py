@@ -103,4 +103,41 @@ def testAdd(x,y):
     return x + y
 # 对于列表[1,2,3,4,5]执行testAdd的reduce操作
 rst = reduce(testAdd, list1)
+print(type(rst))
 print(rst)
+
+# 系统高阶函数- 02 - filter
+# 过滤函数：对一组数据进行过滤，符合条件的数会生成一个新的队列并返回
+# 跟map相比较
+# - 相同：都是对列表的每一个元素逐一进行操作
+#     - 不同：
+#         - map会生成一个跟原来数据相对应的新队列
+#         - filter不一定，只有符合条件的才会进入新的队列
+#     - filter怎么写：
+#         - 利用给定函数进行判断
+#         - 返回值一定是个bool值
+#         - 格式调用:filter(f,data),f是过滤函数，data是数据
+
+
+# 示例：过滤偶数成为一个新列表
+# 需要定义过滤函数
+# 过滤函数要求有输入，返回bool值
+def isEven(a):
+    return a % 2 == 0
+list4 = [1,2,3,4,23,4.5,6.8,7.9,80,25,42,16]
+list5 = filter(isEven, list4)
+print(type(list5))
+# 返回的filter内容是一个可迭代的对象
+print(list5)
+print(id(list5))
+# print([i for i in list5])
+# 转为list
+list6 = list(list5)
+print(list6)
+print(list5)
+print(id(list5))
+# mark:为什么执行过一次迭代后，再迭代时没有值？
+for i in list5:
+    print(i)
+
+
