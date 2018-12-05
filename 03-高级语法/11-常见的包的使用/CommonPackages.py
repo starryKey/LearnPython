@@ -500,7 +500,7 @@ import random
 
 # random模块
 # random() 获取0-1之间的随机小数
-# 格式random。random（）
+# 格式random.random（）
 # 返回值：随机0-1之间的小数
 
 print(random.random())
