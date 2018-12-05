@@ -140,4 +140,31 @@ print(id(list5))
 for i in list5:
     print(i)
 
+print("*" * 15 +  "我是分割符" + "*" * 15)
+
+
+### 高阶函数 - 排序
+ # - 把一个序列按照给定算法进行排序
+ # - key：在排序前对每一个元素进行key函数运算，可以理解成按照key函数定义的逻辑进行排序
+ # - python 2.x 和python 3.x相差很大
+
+# 示例1
+listA = [1,11,21,31,20,10,6,30]
+listB = sorted(listA, reverse=True)
+print(listB)
+# 示例2
+listC = [-10,2,10,6,-16,80,-8]
+# 按照绝对值进行排序
+listD = sorted(listC, key=abs, reverse=True)
+print(listD)
+help(sorted)
+
+# sorted案例
+
+aStr = ["haha","Hello","World","test","tomorrow"]
+aStr2 = sorted(aStr)
+print(aStr2)
+
+aStr3 = sorted(aStr, key=str.lower)
+print(aStr3)
 
