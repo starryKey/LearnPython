@@ -249,3 +249,97 @@ print(f4())
 print(f5())
 print(f6())
 
+
+### 装饰器
+
+def hello():
+    print("Hello world")
+hello()
+
+f = hello
+f()
+# 判断是否为同一个函数
+print(id(f))
+print(id(hello))
+
+# 功能拓展
+# 对hello功能进行拓展，每次打印hello之前打印当前系统时间
+# 而实现这个功能又不能改动现有代码
+
+# 装饰器
+# 在不改动函数代码的基础上无限扩展函数功能的一种机制，本质上讲，装饰器是一个返回函数的高阶函数
+# 装饰器的使用：使用@语法，即在每次要扩展到函数定义前使用+函数名
+
+
+# 需求
+# 对hello函数进行功能扩展，每次执行hello时打印当前时间
+
+import time
+# 高阶函数，以函数作为参数，并返回一个函数
+def printTime(f):
+    def wrapper(*args, **kwargs):
+        print("Time: ", time.ctime())
+        return f(*args, **kwargs)
+    return wrapper
+# 上面定义了一个装饰器，使用的时候需要用到@， 此符号是python的语法糖
+
+@printTime
+def hello1():
+    print("Hello world")
+
+hello1()
+
+# 装饰器的好处是，一旦定义，可以装饰任意函数
+# 一旦被其装饰， 则把装饰器的功能直接添加到定义函数的功能上
+
+@printTime
+def hello2():
+    print("Haha ")
+
+hello2()
+
+# 上述对函数的装饰使用了系统定义的语法糖
+# 以下开始手动执行下装饰器
+
+def hello3():
+    print("手动执行")
+# hello3()
+
+hello4 = printTime(hello3)
+hello4()
+
+
+
+### 偏函数
+
+# 把字符串转化成十进制数字
+int("12345")
+
+#将八进制字符串12345，转为十进制数字
+a =  int("12345", base=8)
+print(a)
+# help(int)
+
+# 示例
+# 新建一个函数，此函数是默认输入的字符串是16进制函数
+# 把此字符串返回十进制的数字
+
+def int16(x, base=16):
+    return int(x,base)
+
+b = int16("12345")
+print(b)
+
+
+# 偏函数
+# 参数固定的函数，想当于一个由特定参数的函数体
+# functools.partial的作用是，把一个函数某些参数固定，返回一个新函数
+
+import functools
+# 将base固定。
+int16Func = functools.partial(int, base=16)
+c = int16Func("12345")
+print(c)
+help(functools.partial)
+
+
