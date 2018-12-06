@@ -168,3 +168,84 @@ print(aStr2)
 aStr3 = sorted(aStr, key=str.lower)
 print(aStr3)
 
+### --- 返回函数
+# - 函数可以返回一个具体的值，也可以返回一个函数作为结果
+
+# 普通函数
+def myFunc(a):
+    print("My  func")
+    return None
+a = myFunc(8)
+print(a)
+
+# 返回函数, 函数作为返回值返回， 被返回的函数在函数体内定义
+
+def myFunc2():
+
+    def myFunc3():
+        print("Func 3")
+        return 3
+    return myFunc3
+
+myFunc4 = myFunc2()
+print(type(myFunc4))
+print(myFunc4)
+myFunc4()
+
+
+# 复杂的返回函数例子
+# args 参数列表
+def myFunc5( *args):
+    def myFunc6():
+        rest1 = 0
+        for n in  args:
+            rest1 += n
+        return rest1
+    return myFunc6
+
+myfunc7 = myFunc5(1,2,3,4,5,6,7,8,9,0)
+print(myfunc7())
+myfunc7()
+
+func8 = myFunc5(10,20,30,40)
+print(func8())
+
+### --- 闭包
+# - 当一个函数在内部定义函数，并且内部的函数应用外部函数的参数或者局部变量，当内部函数被当作返回值的时候，
+# - 相关参数和变量保存在返回值的函数中，这种结果，叫闭包
+# myFunc5 函数即为标准闭包结构
+
+#常见坑
+def count():
+    #定义列表
+    fs = []
+    for i in range(1,4):
+        def fu():
+            return i * i
+        fs.append(fu)
+
+    return fs
+f1,f2,f3 = count()
+print(f1())
+print(f2())
+print(f3())
+# 出现的问题，返回函数引用了变量i，i并非立即执行，而是等到三个函数都返回的时候才统一使用，此时i已经变成了3，最终调用的时候，结果均为3 * 3
+# 注意问题： 返回闭包时，返回函数不能引用任何循环变量
+# 解决方案：再创建一个函数，该函数绑定循环变量的当前值，无论该循环变量以后如何改变，已经绑定的函数参数值不再改变
+
+# 修改上述函数
+
+def count2():
+    def f(j):
+        def g():
+            return j * j
+        return g
+    fs = []
+    for i in range(1,4):
+        fs.append(f(i))
+    return fs
+f4,f5,f6 = count2()
+print(f4())
+print(f5())
+print(f6())
+
