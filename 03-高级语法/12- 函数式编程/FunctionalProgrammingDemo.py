@@ -340,6 +340,100 @@ import functools
 int16Func = functools.partial(int, base=16)
 c = int16Func("12345")
 print(c)
-help(functools.partial)
+# help(functools.partial)
+
+### 高级函数 - zip
+# - 把两个可迭代内容生成一个可迭代的tuple元素类型组成的内容
+
+l1 = [1,2,3,4,5]
+l2 = [11,22,33,44,55]
+z = zip(l1, l2)
+print(z)
+for i in z:
+    print(i)
+
+### 高级函数- enumerate
+# 跟zip功能较像，对可迭代对象里的每一个元素，配上一个索引，然后索引和内容构成tuple
+# enumerate 示例
+l3 = [11,22,33,44,55]
+em = enumerate(l3)
+
+l4 = [i for i in em]
+print(l4)
+
+em2 = enumerate(l3, start=100)
+l5 = [i for i in em2]
+print(l5)
+
+### collections 模块
+# namedtuple
+
+import collections
+
+point = collections.namedtuple("Point",['x','y'])
+p = point(11,22)
+print(p.x)
+print(p[1])
+
+Circle = collections.namedtuple("Circle", ['x','y','r'])
+cir = Circle(20, 20, 20)
+print(cir)
+print(type(cir))
+# 检测谁是谁的子类
+isTrue = isinstance(cir, tuple)
+print(isTrue)
+
+# deque
+# 比较方便的解决了删除插入带来的效率问题
+
+from collections import deque
+
+que = deque(["a","b","c"])
+print(que)
+
+que.append("d")
+print(que)
+
+que.appendleft("#")
+print(que)
+
+# defaultdict
+# 当直接读取dict不存在的属性时， 直接返回默认值
+
+dict1 = {"one":1, "two":2, "three":3}
+print(dict1["one"])
+# 直接读取不存在的key时，崩溃，报错
+# print(dict1["four"])
+# 解决方式
+
+from collections import  defaultdict
+
+# help(defaultdict)
+
+func = lambda:"HaHa"
+dict2 = defaultdict(func)
+
+dict2["one"] = 1
+dict2["two"] = 2
+
+print(dict2["one"])
+# 没有key时，默认调用函数
+print(dict2["four"])
+
+### Counter
+
+from collections import Counter
+
+nCount1 = Counter("abcdefg")
+# 统计每个字符出现的个数
+print(nCount1)
+
+lis2 = ["love","haha","hahahah","love","world","and","peace"]
+nCount2 = Counter(lis2)
+print(nCount2)
+
+
+
+
 
 
