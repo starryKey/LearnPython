@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/14-文件File/FileNote.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/14-文件File/FileNote.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/14-文件File/Test01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/14-文件File/Test01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/14-文件File/UseFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/14-文件File/UseFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +18,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$P02.coverage" NAME="P02 Coverage Results" MODIFIED="1543586195571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$ExceptDemo.coverage" NAME="ExceptDemo Coverage Results" MODIFIED="1543671944634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/10-异常使用" />
     <SUITE FILE_PATH="coverage/LearnPython$PythonDemo.coverage" NAME="PythonDemo Coverage Results" MODIFIED="1543585893164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
-    <SUITE FILE_PATH="coverage/LearnPython$UseFile.coverage" NAME="UseFile Coverage Results" MODIFIED="1544281061963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/14-文件File" />
+    <SUITE FILE_PATH="coverage/LearnPython$UseFile.coverage" NAME="UseFile Coverage Results" MODIFIED="1544363859847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/14-文件File" />
     <SUITE FILE_PATH="coverage/LearnPython$P05.coverage" NAME="P05 Coverage Results" MODIFIED="1543588449374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$P01.coverage" NAME="P01 Coverage Results" MODIFIED="1543586188410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$P07.coverage" NAME="P07 Coverage Results" MODIFIED="1543590386823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
@@ -60,34 +63,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="15" />
-          <entry key="md" value="18" />
+          <entry key="md" value="20" />
           <entry key="pstat" value="4" />
-          <entry key="py" value="80" />
-          <entry key="txt" value="4" />
+          <entry key="py" value="83" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="15" />
-          <entry key="Markdown" value="18" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Markdown" value="20" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Profiler Session" value="4" />
-          <entry key="Python" value="80" />
+          <entry key="Python" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="md" value="12440" />
-          <entry key="py" value="21602" />
-          <entry key="txt" value="512" />
+          <entry key="md" value="12642" />
+          <entry key="py" value="23474" />
+          <entry key="txt" value="517" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="12440" />
-          <entry key="PLAIN_TEXT" value="512" />
-          <entry key="Python" value="21608" />
+          <entry key="Markdown" value="12642" />
+          <entry key="PLAIN_TEXT" value="517" />
+          <entry key="Python" value="23480" />
         </counts>
       </usages-collector>
     </session>
@@ -98,8 +101,8 @@
         <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/FileNote.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="309">
-                <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <first_editor relative-caret-position="284">
+                <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -109,17 +112,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/UseFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/Test01.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="350">
+              <caret line="243" column="17" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -184,9 +178,9 @@
         <option value="$PROJECT_DIR$/Tools/Questions.md" />
         <option value="$PROJECT_DIR$/03-高级语法/13-调试/TestDebug.py" />
         <option value="$PROJECT_DIR$/03-高级语法/13-调试/DebugSkills.md" />
+        <option value="$PROJECT_DIR$/03-高级语法/14-文件File/Test01.txt" />
         <option value="$PROJECT_DIR$/03-高级语法/14-文件File/FileNote.md" />
         <option value="$PROJECT_DIR$/03-高级语法/14-文件File/UseFile.py" />
-        <option value="$PROJECT_DIR$/03-高级语法/14-文件File/Test01.txt" />
       </list>
     </option>
   </component>
@@ -197,10 +191,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="124" />
-    <option name="y" value="45" />
-    <option name="width" value="1190" />
-    <option name="height" value="747" />
+    <option name="x" value="-10" />
+    <option name="y" value="55" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -231,6 +225,24 @@
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
+              <item name="09-包" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
+              <item name="10-异常使用" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
+              <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
+              <item name="11-常见的包的使用" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
@@ -623,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544196195265</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1、file">
+      <created>1544281093741</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1544281093741</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -636,25 +655,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="23" width="1190" height="747" extended-state="0" />
+    <frame x="379" y="31" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.26916376" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.226979" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48954704" weight="0.3648855" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.5261324" visible="true" weight="0.40152672" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" weight="0.36350363" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8069467" visible="true" weight="0.35036495" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49825785" weight="0.32824427" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49757674" weight="0.3270073" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4965157" weight="0.3038168" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49596122" weight="0.30364963" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4738676" side_tool="true" visible="true" weight="0.40152672" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49738675" weight="0.32824427" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49738675" weight="0.32366413" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51130855" side_tool="true" weight="0.36350363" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4951535" weight="0.3270073" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49676898" weight="0.32262772" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -704,7 +723,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test commit and push" />
     <MESSAGE value="面向对象的一些特性" />
     <MESSAGE value="面向对象的三大特性&#10;1、封装&#10;2、继承&#10;3、多态" />
     <MESSAGE value="继承,构造函数等" />
@@ -729,7 +747,8 @@
     <MESSAGE value="1、装饰器&#10;2、偏函数" />
     <MESSAGE value="1、zip&#10;2、enumerate&#10;3、collections" />
     <MESSAGE value="1、update debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、update debug" />
+    <MESSAGE value="1、file" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,21 +787,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-05-函数.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-OOP/Demo/ExampleClass.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="552" lean-forward="true" selection-start-line="552" selection-end-line="552" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/Python高级语法-09-Note.md" />
     <entry file="file://$PROJECT_DIR$/02-OOP/Python基础-08-OOP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -835,16 +839,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/__init__.py" />
     <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/Python高级-09-包.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1635">
-            <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/pkg02/PP01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -982,16 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/11-常见的包的使用/CommonPackages-11.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="214">
-            <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tools/Tools.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1077,13 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/13-调试/TestDebug.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1095,26 +1072,66 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/Test01.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/Test02.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/FileNote.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="309">
-            <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <first_editor relative-caret-position="284">
+            <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/09-包/Python高级-09-包.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1635">
+            <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/11-常见的包的使用/CommonPackages-11.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="506">
+            <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/dbm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/shelve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="311" selection-start-line="311" selection-end-line="311" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/UseFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="350">
+          <caret line="243" column="17" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
         </state>
       </provider>
     </entry>
