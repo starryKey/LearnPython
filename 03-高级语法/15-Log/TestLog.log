@@ -1,0 +1,35 @@
+DEBUG:root:This is a debug log
+INFO:root:This is a info log
+WARNING:root:This is a waning log
+ERROR:root:This is a error log
+CRITICAL:root:This is a critical log
+DEBUG:root:This is a debug log
+INFO:root:This is a info log
+WARNING:root:This is a waning log
+ERROR:root:This is a error log
+CRITICAL:root:This is a critical log
+2018-12-10 23:22:20,174===DEBUG+++This is a debug log
+2018-12-10 23:22:20,176===INFO+++This is a info log
+2018-12-10 23:22:20,176===WARNING+++This is a waning log
+2018-12-10 23:22:20,176===ERROR+++This is a error log
+2018-12-10 23:22:20,177===CRITICAL+++This is a critical log
+2018-12-10 23:22:20,177===DEBUG+++This is a debug log
+2018-12-10 23:22:20,177===INFO+++This is a info log
+2018-12-10 23:22:20,177===WARNING+++This is a waning log
+2018-12-10 23:22:20,177===ERROR+++This is a error log
+2018-12-10 23:22:20,177===CRITICAL+++This is a critical log
+2018-12-11 00:10:30,049===DEBUG+++This is a debug log
+2018-12-11 00:10:30,051===INFO+++This is a info log
+2018-12-11 00:10:30,051===WARNING+++This is a waning log
+2018-12-11 00:10:30,051===ERROR+++This is a error log
+2018-12-11 00:10:30,051===CRITICAL+++This is a critical log
+2018-12-11 00:10:30,051===DEBUG+++This is a debug log
+2018-12-11 00:10:30,051===INFO+++This is a info log
+2018-12-11 00:10:30,052===WARNING+++This is a waning log
+2018-12-11 00:10:30,052===ERROR+++This is a error log
+2018-12-11 00:10:30,052===CRITICAL+++This is a critical log
+2018-12-11 00:10:30,058===DEBUG+++debug message
+2018-12-11 00:10:30,059===INFO+++info message
+2018-12-11 00:10:30,059===WARNING+++warning message
+2018-12-11 00:10:30,059===ERROR+++error message
+2018-12-11 00:10:30,060===CRITICAL+++critical message
