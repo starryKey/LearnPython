@@ -12,3 +12,8 @@
  - 1、代码提交，日志
  - 2、疑问:Mark:why?
  - 3、提示:Mark:tip
+ 
+# 多线程
+ - 文章
+    - https://www.cnblogs.com/jokerbj/p/7460260.html
+    - http://www.dabeaz.com/python/UnderstandingGIL.pdf
