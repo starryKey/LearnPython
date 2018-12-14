@@ -43,8 +43,8 @@ if __name__ == '__main__':
         queue.put("初始产品"+ str(i))
     for i in range(2):
         p = Producer()
-        p.start()
+        # p.start()
     for i in range(5):
         c = Consumer()
-        c.start()
+        # c.start()
 
