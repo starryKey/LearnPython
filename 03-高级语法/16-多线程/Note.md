@@ -91,4 +91,32 @@
     - 递归中，任务没完成不能释放锁，下一个调用时还要申请，但上个还没释放
     - 案例17
  
+# 线程替代方案 
+ - subprocess
+    - 完全跳过线程，使用进程
+    - 是派生进程的主要替代方案
+    - python2.4后引入
+ - multiprocessing
+    - 使用threading接口派生，使用子进程
+    - 允许为多核或多CPU派生进程，接口跟threading非常相似
+    - python2.6
+ - concurrent.futures
+    - 新的异步执行模块
+    - 任务级别的操作
+    - python3.2后引入
+    
+# 多进程
+ - 进程间通讯(InterprocessCommunication, IPC)
+ - 进程之间无任何共享状态
+ - 进程的创建
+    - 案例18
+    - 直接生成Process实例对象
+    - 派生子类
+        - 案例19
+ - 在os 中查看pid, ppid以及他们的关系
+ 
+ - 生产者和消费者模型，使用进程实现
+    - JoinableQueue
+    - 队列中哨兵的使用
+    
  
