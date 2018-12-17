@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tools/Tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/Tools.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/17-协程/Example01.py" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/17-协程/Example01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-高级语法/17-协程/Note.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-高级语法/17-协程/Note.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +18,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$Example07.coverage" NAME="Example07 Coverage Results" MODIFIED="1544627400179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$PythonDemo.coverage" NAME="PythonDemo Coverage Results" MODIFIED="1543585893164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$UseFile.coverage" NAME="UseFile Coverage Results" MODIFIED="1544452557777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/14-文件File" />
-    <SUITE FILE_PATH="coverage/LearnPython$Example01.coverage" NAME="Example01 Coverage Results" MODIFIED="1544972781581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
+    <SUITE FILE_PATH="coverage/LearnPython$Example01.coverage" NAME="Example01 Coverage Results" MODIFIED="1545057240273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
     <SUITE FILE_PATH="coverage/LearnPython$Example21.coverage" NAME="Example21 Coverage Results" MODIFIED="1544881163723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$Example19.coverage" NAME="Example19 Coverage Results" MODIFIED="1544878584584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$P01.coverage" NAME="P01 Coverage Results" MODIFIED="1543586188410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
@@ -27,7 +28,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$Example06.coverage" NAME="Example06 Coverage Results" MODIFIED="1544626013710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$Example12.coverage" NAME="Example12 Coverage Results" MODIFIED="1544794825620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$CommonPackages.coverage" NAME="CommonPackages Coverage Results" MODIFIED="1543936833706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/11-常见的包的使用" />
-    <SUITE FILE_PATH="coverage/LearnPython$Example03.coverage" NAME="Example03 Coverage Results" MODIFIED="1544624357471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
+    <SUITE FILE_PATH="coverage/LearnPython$Example03.coverage" NAME="Example03 Coverage Results" MODIFIED="1545059556383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
     <SUITE FILE_PATH="coverage/LearnPython$Example23.coverage" NAME="Example23 Coverage Results" MODIFIED="1544881276679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$ExampleClass.coverage" NAME="ExampleClass Coverage Results" MODIFIED="1543583325717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Note/02-OOP/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$Example08.coverage" NAME="Example08 Coverage Results" MODIFIED="1544628622109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
@@ -36,8 +37,8 @@
     <SUITE FILE_PATH="coverage/LearnPython$P02.coverage" NAME="P02 Coverage Results" MODIFIED="1543586195571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$LogNote.coverage" NAME="LogNote Coverage Results" MODIFIED="1544458229010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/15-Log" />
     <SUITE FILE_PATH="coverage/LearnPython$Example14.coverage" NAME="Example14 Coverage Results" MODIFIED="1544797640483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
-    <SUITE FILE_PATH="coverage/LearnPython$Example02.coverage" NAME="Example02 Coverage Results" MODIFIED="1544711866676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
-    <SUITE FILE_PATH="coverage/LearnPython$Example05.coverage" NAME="Example05 Coverage Results" MODIFIED="1544625806034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
+    <SUITE FILE_PATH="coverage/LearnPython$Example02.coverage" NAME="Example02 Coverage Results" MODIFIED="1545058732917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
+    <SUITE FILE_PATH="coverage/LearnPython$Example05.coverage" NAME="Example05 Coverage Results" MODIFIED="1545061402356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
     <SUITE FILE_PATH="coverage/LearnPython$Example20.coverage" NAME="Example20 Coverage Results" MODIFIED="1544878972739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$P05.coverage" NAME="P05 Coverage Results" MODIFIED="1543588449374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$Example09.coverage" NAME="Example09 Coverage Results" MODIFIED="1544629773978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
@@ -46,7 +47,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$Example10.coverage" NAME="Example10 Coverage Results" MODIFIED="1544713154632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$P06.coverage" NAME="P06 Coverage Results" MODIFIED="1543589232953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$FunctionalProgrammingDemo.coverage" NAME="FunctionalProgrammingDemo Coverage Results" MODIFIED="1544191714969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/12- 函数式编程" />
-    <SUITE FILE_PATH="coverage/LearnPython$Example04.coverage" NAME="Example04 Coverage Results" MODIFIED="1544625261771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
+    <SUITE FILE_PATH="coverage/LearnPython$Example04.coverage" NAME="Example04 Coverage Results" MODIFIED="1545060446163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
     <SUITE FILE_PATH="coverage/LearnPython$P03.coverage" NAME="P03 Coverage Results" MODIFIED="1543586594363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$Example13.coverage" NAME="Example13 Coverage Results" MODIFIED="1544797102724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
   </component>
@@ -87,7 +88,7 @@
           <entry key="log" value="1" />
           <entry key="md" value="30" />
           <entry key="pstat" value="4" />
-          <entry key="py" value="147" />
+          <entry key="py" value="151" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
@@ -97,22 +98,22 @@
           <entry key="Markdown" value="30" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Profiler Session" value="4" />
-          <entry key="Python" value="147" />
+          <entry key="Python" value="151" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="md" value="16863" />
-          <entry key="py" value="29662" />
-          <entry key="txt" value="712" />
+          <entry key="md" value="17649" />
+          <entry key="py" value="30409" />
+          <entry key="txt" value="723" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="16863" />
-          <entry key="PLAIN_TEXT" value="712" />
-          <entry key="Python" value="29668" />
+          <entry key="Markdown" value="17649" />
+          <entry key="PLAIN_TEXT" value="723" />
+          <entry key="Python" value="30415" />
         </counts>
       </usages-collector>
     </session>
@@ -123,8 +124,8 @@
         <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="321">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <first_editor relative-caret-position="-408">
+                <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,13 +133,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example01.py">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-              <folding>
-                <marker date="1544972781573" expanded="true" signature="1128:1478" ph="..." />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -172,10 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-高级语法/Demo/P06.py" />
-        <option value="$PROJECT_DIR$/03-高级语法/Demo/pkg02/PP01.py" />
-        <option value="$PROJECT_DIR$/03-高级语法/Demo/pkg02/__init__.py" />
-        <option value="$PROJECT_DIR$/03-高级语法/Demo/P07.py" />
         <option value="$PROJECT_DIR$/03-高级语法/Python高级-09-包.md" />
         <option value="$PROJECT_DIR$/03-高级语法/10-异常使用/ExceptDemo.py" />
         <option value="$PROJECT_DIR$/03-高级语法/10-异常使用/Python高级-10-异常.md" />
@@ -221,8 +215,12 @@
         <option value="$PROJECT_DIR$/03-高级语法/16-多线程/Example22.py" />
         <option value="$PROJECT_DIR$/03-高级语法/16-多线程/Example23.py" />
         <option value="$PROJECT_DIR$/Tools/Tools.md" />
-        <option value="$PROJECT_DIR$/03-高级语法/17-协程/Note.md" />
         <option value="$PROJECT_DIR$/03-高级语法/17-协程/Example01.py" />
+        <option value="$PROJECT_DIR$/03-高级语法/17-协程/Example02.py" />
+        <option value="$PROJECT_DIR$/03-高级语法/17-协程/Example03.py" />
+        <option value="$PROJECT_DIR$/03-高级语法/17-协程/Example04.py" />
+        <option value="$PROJECT_DIR$/03-高级语法/17-协程/Note.md" />
+        <option value="$PROJECT_DIR$/03-高级语法/17-协程/Example05.py" />
       </list>
     </option>
   </component>
@@ -233,9 +231,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="35" />
-    <option name="width" value="1280" />
+    <option name="x" value="-206" />
+    <option name="y" value="23" />
+    <option name="width" value="1044" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -300,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Example01">
+  <component name="RunManager" selected="Python.Example05">
     <configuration name="Example01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -323,7 +321,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Example19" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Example02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,12 +329,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/16-多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/17-协程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/16-多线程/Example19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/17-协程/Example02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,7 +343,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Example20" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Example03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,12 +351,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/16-多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/17-协程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/16-多线程/Example20.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/17-协程/Example03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,7 +365,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Example21" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Example04" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,12 +373,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/16-多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/17-协程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/16-多线程/Example21.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/17-协程/Example04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,7 +387,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Example23" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Example05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -397,12 +395,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/16-多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-高级语法/17-协程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/16-多线程/Example23.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-高级语法/17-协程/Example05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -412,19 +410,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Example19" />
-      <item itemvalue="Python.Example20" />
-      <item itemvalue="Python.Example21" />
-      <item itemvalue="Python.Example23" />
       <item itemvalue="Python.Example01" />
+      <item itemvalue="Python.Example02" />
+      <item itemvalue="Python.Example03" />
+      <item itemvalue="Python.Example04" />
+      <item itemvalue="Python.Example05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Example05" />
+        <item itemvalue="Python.Example04" />
+        <item itemvalue="Python.Example03" />
+        <item itemvalue="Python.Example02" />
         <item itemvalue="Python.Example01" />
-        <item itemvalue="Python.Example23" />
-        <item itemvalue="Python.Example21" />
-        <item itemvalue="Python.Example20" />
-        <item itemvalue="Python.Example19" />
       </list>
     </recent_temporary>
   </component>
@@ -726,7 +724,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544929878632</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="迭代器、生成器">
+      <created>1544972841749</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1544972841749</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -739,16 +744,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="35" width="1280" height="777" extended-state="0" />
+    <frame x="229" y="23" width="1044" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.25201938" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.18962076" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" weight="0.3620438" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8069467" visible="true" weight="0.3270073" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.8069467" visible="true" weight="0.47007298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49757674" weight="0.3270073" />
@@ -763,7 +768,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32875606" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.14870259" />
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -807,7 +812,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1、抽象类和自定义类等" />
     <MESSAGE value="目录调整" />
     <MESSAGE value="1、Python高级-模块和包" />
     <MESSAGE value="1、calendar &amp; time" />
@@ -832,7 +836,8 @@
     <MESSAGE value="1、死锁问题；&#10;2、锁的等待&#10;3、semaphore&#10;4、threading.Timer&#10;5、RLock()" />
     <MESSAGE value="1、多进程相关" />
     <MESSAGE value="Python文档：HeadFirstPython" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python文档：HeadFirstPython" />
+    <MESSAGE value="迭代器、生成器" />
+    <option name="LAST_COMMIT_MESSAGE" value="迭代器、生成器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,33 +876,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/Test02.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-01-环境配置.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/FileNote.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="310">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/14-文件File/UseFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="237" column="21" selection-start-line="237" selection-start-column="21" selection-end-line="237" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1301,23 +1279,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="117" column="9" lean-forward="true" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+          <folding>
+            <marker date="1545057240262" expanded="true" signature="1128:1530" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-end-line="16" />
+          <folding>
+            <marker date="1545058732908" expanded="true" signature="28:33" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1545060593108" expanded="true" signature="10:15" ph="..." />
+            <marker date="1545060593108" expanded="true" signature="107:112" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="321">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <first_editor relative-caret-position="-408">
+            <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example01.py">
+    <entry file="file://$PROJECT_DIR$/03-高级语法/17-协程/Example05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="108" column="18" lean-forward="true" selection-start-line="108" selection-start-column="18" selection-end-line="108" selection-end-column="18" />
-          <folding>
-            <marker date="1544972781573" expanded="true" signature="1128:1478" ph="..." />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
         </state>
       </provider>
     </entry>

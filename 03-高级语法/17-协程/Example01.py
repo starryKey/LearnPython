@@ -104,8 +104,16 @@ def fib(max):
 
     return "Done"
 
-gg = fib(5)
+# gg = fib(5)
+#
+# for i in range(6):
+#     rst = next(gg)
+#     print(rst)
+"""
+生成器的典型用法是在for循环中使用
+比较常用的典型生成器是range
+"""
+ge = fib(10)
+for i in ge:
+    print(i)
 
-for i in range(6):
-    rst = next(gg)
-    print(rst)
