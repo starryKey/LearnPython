@@ -76,6 +76,7 @@
  - 使用上，可以简单的进行替换
     -  用async 替换 @asyncio.coroutine
     - await 替换 yield from 
+    - 案例06
     
     
 # aiohttp 
@@ -85,4 +86,21 @@
  - aiohttp 是给予asyncio实现的http框架
  - 安装
     - 执行命令行 pip install aiohttp
-    
+ - 示例 07
+ 
+# concurrent.futures
+ - python3新增的 库
+ - 类似其他语言的线程池的概念
+ - 利用multiprocessiong 实现真正的并行计算
+ 
+        
+        - 核心原理：以子进程的形式，并行运行多个python解释器，从而灵python程序可以利用多核CPU来提升执行速度
+          由于子进程与主解释器相分离，所以他们的全局解释器锁也是相互独立的
+          每个子进程都能完整的使用一个CPU内核
+ - concurrent.futures.Executor
+    - ThreadPoolExecutor
+    - ProcessPoolExecutor
+    - 执行时需要自行选择
+ - submit（fn,args,kwargs）
+    - fn: 异步执行函数
+    - args ，kwargs 参数
