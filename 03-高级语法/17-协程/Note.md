@@ -59,3 +59,30 @@
     - 子生成器再把产生的值发给调用方
     - 子生成器在最后，解释器会抛出StopIteration异常，并且把返回值附件到异常上
     - 案例05
+    
+# asyncio
+ - python3.4开始引入标准库中，内置对异步IO的支持
+ - asyncio本身是一个消息循环
+    - 步骤：
+        - 创建消息循环
+        - 把协程导入
+        - 关闭
+        
+        
+# async and await
+ - 为了更好的表示异步IO
+ - Python3.5 引入
+ - 让协程代码更简洁
+ - 使用上，可以简单的进行替换
+    -  用async 替换 @asyncio.coroutine
+    - await 替换 yield from 
+    
+    
+# aiohttp 
+ - asyncio 实现单线程的并发IO，在客户端用处不大
+ - 在服务短可以使用asyncio+ coroutine配合，因为http是IO
+ - asyncio实现了tcp、udp、ssl等协议
+ - aiohttp 是给予asyncio实现的http框架
+ - 安装
+    - 执行命令行 pip install aiohttp
+    
