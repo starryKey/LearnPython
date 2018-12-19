@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<School>
+    <Student gender="male" subject="math">
+        <!--gender 子元素，同name一样-->
+        <name>Jack</name>
+        <age>18</age>
+        <favorite>sing</favorite>
+    </Student>
+    <Student>
+        <name>Tom</name>
+        <age>20</age>
+        <favorite>sing</favorite>
+    </Student>
+
+</School>
