@@ -43,7 +43,7 @@
         - 三短横线只能出现在注释的开头不能用在结尾
         
  - 保留字符的处理
-    - xml中使用的符号可能根实际符号相冲，典型的就是左右尖括号
+    - xml中使用的符号可能跟实际符号相冲，典型的就是左右尖括号
     - 使用实体引用EntityReference来表示保留字符
         
             <score> score>80 </score>  #有错误，xml中不能出现>
@@ -148,6 +148,17 @@
             node.attrib： 是node的属性的字典类型的内容
             
             案例03
+ 
+## XML的写入
+ - 更改
+    - ele.set 修改属性
+    - ele.append:添加子元素
+    - ele.remove：删除元素
+    - 案例Example04
     
+ - 生成创建
+    - SubElement
+    - 案例Example05
+
         
         
