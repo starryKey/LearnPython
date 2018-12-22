@@ -157,8 +157,7 @@
     - 案例Example04
     
  - 生成创建
-    - SubElement
-    - 案例Example05
-
-        
-        
+    - SubElement 案例Example05
+    - minidom 写入 案例Example06
+    - etree创建 案例Example07
+  
