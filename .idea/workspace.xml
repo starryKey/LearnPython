@@ -87,7 +87,7 @@
         <counts>
           <entry key="ipynb" value="26" />
           <entry key="log" value="1" />
-          <entry key="md" value="41" />
+          <entry key="md" value="42" />
           <entry key="pstat" value="4" />
           <entry key="py" value="181" />
           <entry key="txt" value="6" />
@@ -97,7 +97,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="26" />
-          <entry key="Markdown" value="41" />
+          <entry key="Markdown" value="42" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Profiler Session" value="4" />
           <entry key="Python" value="181" />
@@ -107,16 +107,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="6" />
-          <entry key="md" value="22973" />
+          <entry key="md" value="23376" />
           <entry key="py" value="34654" />
-          <entry key="txt" value="894" />
+          <entry key="txt" value="906" />
           <entry key="xml" value="377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="22973" />
-          <entry key="PLAIN_TEXT" value="894" />
+          <entry key="Markdown" value="23376" />
+          <entry key="PLAIN_TEXT" value="906" />
           <entry key="Python" value="34660" />
           <entry key="XML" value="377" />
         </counts>
@@ -125,18 +125,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-高级语法/18-格式化文件/Note.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="386">
-                <caret line="154" column="22" lean-forward="true" selection-start-line="154" selection-start-column="22" selection-end-line="154" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-高级语法/18-格式化文件/Note-Json.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -173,12 +161,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-高级语法/18-格式化文件/Note-xpath.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="553">
-                <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-高级语法/19-net编程/Note-net.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               </first_editor>
               <second_editor />
             </state>
@@ -259,7 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-高级语法/16-多线程/Example03.py" />
         <option value="$PROJECT_DIR$/03-高级语法/16-多线程/Example04.py" />
         <option value="$PROJECT_DIR$/03-高级语法/16-多线程/Example05.py" />
         <option value="$PROJECT_DIR$/03-高级语法/16-多线程/Example06.py" />
@@ -310,6 +309,7 @@
         <option value="$PROJECT_DIR$/03-高级语法/18-格式化文件/Example11.py" />
         <option value="$PROJECT_DIR$/03-高级语法/19-xpath/xpath-note.md.py" />
         <option value="$PROJECT_DIR$/03-高级语法/18-格式化文件/Note-xpath.md" />
+        <option value="$PROJECT_DIR$/03-高级语法/19-net编程/Note-net.md" />
       </list>
     </option>
   </component>
@@ -320,9 +320,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="y" value="34" />
-    <option name="width" value="1181" />
+    <option name="x" value="276" />
+    <option name="y" value="31" />
+    <option name="width" value="1041" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -350,7 +350,7 @@
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnPython" type="462c0819:PsiDirectoryNode" />
               <item name="03-高级语法" type="462c0819:PsiDirectoryNode" />
-              <item name="18-格式化文件" type="462c0819:PsiDirectoryNode" />
+              <item name="19-net编程" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnPython" type="b2602c69:ProjectViewProjectNode" />
@@ -530,13 +530,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542982880281</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Test again">
-      <created>1542984143649</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1542984143649</updated>
     </task>
     <task id="LOCAL-00005" summary="Test commit and push">
       <created>1542990324399</created>
@@ -874,7 +867,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545666275285</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="log:XPath基础">
+      <created>1545750073696</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1545750073696</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -887,10 +887,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="314" y="23" width="1181" height="777" extended-state="0" />
+    <frame x="664" y="31" width="1041" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.2045654" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.23323323" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -955,7 +955,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1、sorted" />
     <MESSAGE value="1、返回函数&#10;2、闭包" />
     <MESSAGE value="1、装饰器&#10;2、偏函数" />
     <MESSAGE value="1、zip&#10;2、enumerate&#10;3、collections" />
@@ -980,7 +979,8 @@
     <MESSAGE value="log:1、json;2、正则" />
     <MESSAGE value="log:RE" />
     <MESSAGE value="log:RE常用函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="log:RE常用函数" />
+    <MESSAGE value="log:XPath基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="log:XPath基础" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1019,13 +1019,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-06-作用域.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-语法基础/Python基础-02-变量.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -1383,8 +1376,18 @@
     <entry file="file://$PROJECT_DIR$/03-高级语法/18-格式化文件/Note-xpath.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="553">
-            <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-高级语法/19-net编程/Note-net.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
