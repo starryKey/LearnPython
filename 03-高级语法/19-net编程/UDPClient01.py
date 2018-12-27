@@ -19,7 +19,7 @@ def clientFunc():
     data = text.encode()
 
     # 发送
-    sock.sendto(data, ("127.0.0.1", 7582))
+    sock.sendto(data, ("127.0.0.1", 7666))
 
     data, addr = sock.recvfrom(200)
 
