@@ -1,0 +1,150 @@
+    
+    EFLIB
+    Extended Function Library
+    Release 3 Prototype 5.1
+    README FIRST
+
+
+    Welcome to EFLIB!
+    =================
+    You are about to explore a new world of programming possibilities for 
+    the Pascal programming platform. The idea behind EFLIB is to make
+    programming easier -  both for novice users and expert programmers.
+
+    This is what EFLIB brings to your programming:    
+
+     o Solid object-orientation           o Powerful mathematics
+     o Classic data structures            o Event-driven programming
+     o Cross-platform user interface
+       (in prototype 6 and higher)
+
+    
+    The core of EFLIB is reuse
+    ==========================
+    When designing a program, we usually concentrate on what the program
+    is supposed to do and give little attention to how, from the perspective
+    of the user, the program will be used. If you have a difficult problem
+    to solve, it is natural to concentrate on the solution rather than the
+    way the solution is packaged. The packaging is important, however, 
+    because a program that does the right thing but is difficult to use
+    is of little or no value. EFLIB provide this packaging.
+
+    EFLIB is an application framework. You can customize the framework
+    or add new features whenever you want to. These are the features in
+    EFLIB that promote reuse:
+
+     o Generalized solutions           o Special design patterns
+     o Persistent objects (streams)    o Instance-level customizations
+     o Toolkit patterns                o Abstract layers (devices, etc)
+   
+    
+    Main features
+    =============
+    o There is a complete set of classic data structures delivered with EFLIB: linked lists, 
+      vectors, tables and trees.
+    o Data streams and filters simplifies every I/O process.
+    o Text handling reaching from strings, tokens and text flows to
+      (as introduced in prototype 6) advanced pattern matching.
+    o EFLIB comes with a full math package, that includes vectors, matrixes
+      and complex  numbers, as well as numerical solvers and, for prototype 
+      6 and above, expression parsing and symbolic derivation. 
+    o EFLIB includes a complete user interface with windows, message boxes, buttons,
+      menues, editors and much more. (Prototype 6)
+
+    
+    Who is EFLIB for?
+    =================
+    EFLIB provides elegant object-oriented solutions.
+    
+    A NOVICE PROGRAMMER can easily use them without knowing very
+    much about how EFLIB actually works beneath the surface. Novice 
+    programmers will enjoy the user interface. It will enable them
+    to write small programs and still give them a very flexible and
+    uniform user interface.
+
+    Furthermore, EFLIB is a GREAT ASSET IN EDUCATION. The solid object
+    orientation is suitable as a start platform for those who want to
+    explore object oriented programming. The naming convention is makes
+    it easy to learn OO programming. When you have learned a little about 
+    EFLIB, you will see that many other things work in the same manner.
+
+    EFLIB simplifies and optimizes ADVANCED PROGRAMMING by increasing the
+    level of abstraction. EFLIB reduces the time needed for program
+    developing. Moreover EFLIB makes your source code uniform, very 
+    extendible and very readable. High extendiblity implies a much
+    easier maintenence of your programs.
+
+
+    Required equipment
+    ==================
+    o Borland Pascal with Objects 7.0 [BP7] or
+      100% compatible Object-Pascal compiler.
+    o MS-DOS or compatible operating system such as
+      IBM OS/2 or Microsoft Windows. 
+    o Optionally a mouse with installed driver. 
+
+
+    Installation guide for BP7
+    ==========================
+    1. Extract the files from the EFLIB archive with the PKUNZIP
+       tool from PKWARE© Inc. Use the -d parameter to restore the
+       directory structure.
+    2. Make sure the computer has at least 600 KB free memory. If
+       you do not have enough memory, try to optimize your memory
+       configuration. Consult your operating system manual for
+       further help. If you are using a DPMI-version of Borland
+       Pascal or a compiler that can compile huge programs, the
+       memory in the DOS-region is of no concern.
+    3. Start Borland Pascal.
+    4. Go to the pull down menu "Options" and choose "Directories".
+    5. Move to the field "Unit directories" and add ";C:\EFLIB" after
+       the existing text. Replace the directory name with the name
+       of your EFLIB unit directory, ie. the directory to which 
+       you extracted the archive's source code or run-time files
+       in step 1.
+    6. Save the configuration using the choice "Save" in the
+       "Options" pull down menu.
+
+
+    Release information
+    ===================
+    The current release of EFLIB is prototype 5.1 of release 3. This is
+    a reduced edition which will NOT BE BACKWARD COMPATIBLE WITH THE
+    6TH PROTOTYPE, scheduled for April 30, 1998. 
+    This prototype release have only been tested with Borland Pascal 7 
+    running in MS-DOS or Microsoft Windows NT 4. Ports to the Linux
+    environment are planned, as well as support for FPK Pascal and 
+    GNU Pascal.
+
+
+    Legal
+    =====
+    EFLIB may only be used according to the enclosed license agreement
+    (License.txt), which may never be removed from this package. Nor
+    may the header texts in the source code files be removed. You may
+    not use EFLIB unless you accept all the conditions in the license.
+    See also: http://ftp.sunet.se/EFLIB/Legal/License/
+
+
+    Additional information
+    ======================
+    
+    On-line documentation and latest information:
+    http://ftp.sunet.se/EFLIB/
+
+    FTP archive:
+    http://ftp.sunet.se/pub/lang/EFLIB/
+
+    For latest information, subscribe to
+
+     o eflib-users@acc.umu.se
+     o eflib-developers@acc.umu.se
+
+    by writing to majordomo@ts.umu.se with the text
+    "subscribe eflib-users" and/or "subscribe eflib-developers"
+    in the message body and with your e-mail as the sender of
+    the message.
+
+
+    (C) Johan Larsson, 1992 - 1998.
+        All rights reserved.
