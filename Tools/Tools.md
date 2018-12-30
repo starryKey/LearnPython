@@ -1,7 +1,8 @@
 # 工具积累
 - 画图软件 Fastston capture
  
- 
+# Python官网  
+ - https://docs.python.org
 # Log模块
  - 资料https://www.cnblogs.com/yyds/p/6901864.html 
  

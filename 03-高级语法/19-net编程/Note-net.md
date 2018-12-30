@@ -107,3 +107,71 @@
     - File:文件名称，如Klar-1,1-RC1.apk
     - 如果想完整精确表示ftp上的某个文件，需要上述三部分组合在一起
     - 示例ftp01
+    
+    
+### Mail编程
+ - 资料
+    - [官网](https://docs.python.org/3/library/email.html)
+ - 邮件工作流程
+    - MUA(MailUserAgent)邮件用户代理
+    - MTA(MailTransferAgent)邮件传输代理
+    - MDA(MailDeliveryAgent)邮件投递代理
+    - testfrom@qq.com
+    - testto@sina.com
+    - 流程
+        - 1、MUA->MTA, 邮件已经在服务器上了
+        - 2、qq MTA->.........->sina MTA, 邮件在新浪的服务器上
+        - 3、sina MTA-> sina MDA, 此时邮件已经在你的邮箱里了
+        - 4、sina MDA -> MUA(Foxmail/Outlook), 邮件下载到本地电脑
+    - 编写程序
+        - 发送：MUA->MTA with SMTP:SimpleMailTransferProtocal，包含MTA->MTA
+        - 接收：MDA->MUA with POP3 and IMAP：PostOfficeProtocal v3 and InternetMessageAccessProtocal v4
+    - 准备工作
+        - 注册邮箱（QQ邮箱为例）
+        - 第三方邮箱需要特殊设置， 以qq邮箱为例
+            - 进入设置中心
+            - 取得授权码
+    - Python for mail 
+        - SMTF协议负责发送邮件
+            - 使用mail模块构建邮件
+                - 纯文本邮件
+                - MailExample01 
+            - HTML格式邮件发送
+                - 准备HTML代码作为内容
+                - 把邮件的subtype设为html
+                - 发送
+                - MailExample02 
+            - 发送带附件的邮件
+                - 可以把邮件看作是一个文件邮件和一个附件的合体
+                - 一封邮件如果涉及多个部分，使用MIMEMultipart格式构建
+                - 添加一个MIMEText正文
+                - 添加一个MIMEBase或者MIMEText作为附件
+                - EmailExample03
+            - 添加邮件头，抄送信息等
+                - mail["From"] 表示发送者信息，包括姓名和邮件
+                - mail["To"] 表示接收者信息，包括姓名和邮件地址
+                - mail["Subject"] 表示摘要或者主题信息
+                - MailExample04
+            - 同时支持html和text格式
+                - 构建一个MIMEMultipart格式邮件
+                - MIMEMultipart的subtype设置成alternative格式  
+                - 添加HTML和text邮件
+                - MailExample05
+                  
+            - 使用smtplib模块发送邮件
+            
+        - POP3协议接收邮件
+            - 本质上是MDA到MUA的一个过程
+            - 从 MDA下载下来的是一个完整的邮件结构体，需要解析才能得到每个具体可读的内容
+            - 步骤：
+                - 用poplib下载邮件结构体原始内容
+                - 准备相应的内容（邮件地址，密码，POP3实例）
+                - 身份认证
+                - 一般会先得到邮箱内邮件的整体列表
+                - 根据相应序号，得到某一封信的数据流
+                - 利用解析函数进行解析出相应的邮件结构体
+                - 用email解析邮件的具体内容
+                - MailExample06      
+    
+ 
+
