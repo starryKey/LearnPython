@@ -116,17 +116,17 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="html" value="27" />
-          <entry key="md" value="26199" />
+          <entry key="md" value="26582" />
           <entry key="py" value="36983" />
-          <entry key="txt" value="974" />
+          <entry key="txt" value="993" />
           <entry key="xml" value="377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="27" />
-          <entry key="Markdown" value="26199" />
-          <entry key="PLAIN_TEXT" value="974" />
+          <entry key="Markdown" value="26582" />
+          <entry key="PLAIN_TEXT" value="993" />
           <entry key="Python" value="36989" />
           <entry key="XML" value="377" />
         </counts>
@@ -149,8 +149,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" column="8" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="9" />
+              <first_editor relative-caret-position="382">
+                <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -248,9 +248,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-37" />
-    <option name="y" value="35" />
-    <option name="width" value="1350" />
+    <option name="x" value="-410" />
+    <option name="y" value="23" />
+    <option name="width" value="1675" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -459,13 +459,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542982880281</updated>
-    </task>
-    <task id="LOCAL-00013" summary="1、魔术方法&#10;2、类和对象的三种方法">
-      <created>1543418605112</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1543418605112</updated>
     </task>
     <task id="LOCAL-00014" summary="1、属性的三种操作方法及类属性">
       <created>1543505605905</created>
@@ -803,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546182172055</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary=" log:update README.md">
+      <created>1546185361187</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1546185361188</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView">
@@ -816,14 +816,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="238" y="56" width="1350" height="777" extended-state="0" />
+    <frame x="268" y="108" width="1560" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.17813456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.15349144" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" visible="true" weight="0.04379562" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" visible="true" weight="0.04901961" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" weight="0.06715328" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8069467" weight="0.16934307" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -861,7 +861,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1、logging" />
     <MESSAGE value="1、多线程 _thread" />
     <MESSAGE value="1、多线程 threading.Thread" />
     <MESSAGE value="上个版本提交log为：1、共享变量2、线程安全；3、Lock" />
@@ -886,7 +885,8 @@
     <MESSAGE value=" log:1、fix tcp example error" />
     <MESSAGE value=" log:1、ftp" />
     <MESSAGE value=" log:1、email" />
-    <option name="LAST_COMMIT_MESSAGE" value=" log:1、email" />
+    <MESSAGE value=" log:update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value=" log:update README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1326,8 +1326,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="8" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="9" />
+          <first_editor relative-caret-position="382">
+            <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
