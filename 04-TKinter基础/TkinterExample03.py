@@ -1,4 +1,4 @@
-输入框案例
+# 输入框案例
 
 import tkinter
 
