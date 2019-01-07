@@ -24,9 +24,21 @@
  - 爬虫分类
     - 通用爬虫
     - 专用爬虫（聚焦爬虫）
- - python
+ - python网络包
     - Python2.x：urllib, urllib2, urllib3, httplib, httplib2, requests
     - Python3.x: urllib, urllib3, httplib2, requests
     - python2: urllib和urllib2配合使用，或者requests
     - Python3： urllib，requests
-      
+## urllib
+ - 包含模块
+    - urllib.request:打开和读取urls
+    - urllib.error:包含urllib.request产生常见的错误，使用try捕获
+    - urllib.parse:包含解析url的方法
+    - urllib.robotparse：解析robots.txt文件
+    - Example01
+ - 网页编码问题的解决
+    - charset可以自动检测页面文件的编码格式，但是，可能有误
+    - 需要安装 conda install chardet
+    - Example02
+     
+    
