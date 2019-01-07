@@ -40,5 +40,13 @@
     - charset可以自动检测页面文件的编码格式，但是，可能有误
     - 需要安装 conda install chardet
     - Example02
+    
+## urlopen
+ - urlopen的返回对象
+    - Example03
+    - geturl:返回请求对象的url
+    - info:请求反馈对象的meta信息
+    - getcode:http请求code
+ 
      
     
