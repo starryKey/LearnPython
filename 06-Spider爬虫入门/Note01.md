@@ -47,6 +47,12 @@
     - geturl:返回请求对象的url
     - info:请求反馈对象的meta信息
     - getcode:http请求code
+    
+## request.data:
+ - 常用的访问网络的方法
+    - post
+    - get
+    - Example04
  
      
     
