@@ -18,8 +18,14 @@
         由于正则表达式和\会有冲突，因此，当一个字符串使用了正则表达式后，最好前面加上r。以r开头的字符，常用于正则表达式，对应着re模块。
     - "b/B"  python3.x里默认的str是(py2.x里的)unicode, bytes是(py2.x)的str, b”“前缀代表的就是bytes 
             python2.x里, b前缀没什么具体意义， 只是为了兼容python3.x的这种写法    
+# Question3
+ - 百度相关网站爬虫遇到问题
+    - urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:777)>
+ - 解决方案
+    
+        import ssl
+        context = ssl._create_unverified_context()
+        rsp = request.urlopen(baseurl, data=enData, context=context)
         
-    
-    
 
   
