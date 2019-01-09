@@ -21,7 +21,7 @@ import json
 3、结果就应该是搜索关键字对应的释义　
 
 '''
-baseurl = "http://fanyi.baidu.com/sug?"
+baseurl = "https://fanyi.baidu.com/sug?"
 keyword = input("Please input your keyword:")
 #存放用来模拟form的数据，一定是dict格式
 data = {
@@ -54,6 +54,11 @@ json_data = rsp.read().decode("utf-8")
 print(type(json_data))
 print(json_data)
 
-for item in json_data["data"]:
+# 把json字符串转化为字典
+jsonDic = json.loads(json_data)
+print(type(jsonDic))
+print(jsonDic)
+
+for item in jsonDic["data"]:
     print(item["k"], "--", item["v"])
 
