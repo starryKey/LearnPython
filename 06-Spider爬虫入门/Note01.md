@@ -50,9 +50,22 @@
     
 ## request.data:
  - 常用的访问网络的方法
-    - post
     - get
+        - 利用参数给服务器传递信息
+        - 参数为dict，然后用parse编码
     - Example04
+    
+    - post
+        - 一般向服务器传递参数使用
+        - post是把信息自动加密处理
+        - 如果想使用post信息，需要用到data参数
+        - 使用post，意味着http的请求头可能需要更改：
+            - Content-Type: application/json
+            - Content-Length:数据长度
+            - 简而言之，一旦更改请求方法，请注意请求头部信息相连接
+        - urllib.parse.urlencode:可以将字符串自动换成上面的
+    - Example05    
+    
  
      
     
