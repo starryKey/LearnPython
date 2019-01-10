@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
+    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment=" log:post2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +136,7 @@
           <entry key="html" value="27" />
           <entry key="md" value="28498" />
           <entry key="py" value="39602" />
-          <entry key="txt" value="1125" />
+          <entry key="txt" value="1130" />
           <entry key="xml" value="377" />
         </counts>
       </usages-collector>
@@ -145,7 +144,7 @@
         <counts>
           <entry key="HTML" value="27" />
           <entry key="Markdown" value="28498" />
-          <entry key="PLAIN_TEXT" value="1125" />
+          <entry key="PLAIN_TEXT" value="1130" />
           <entry key="Python" value="39608" />
           <entry key="XML" value="377" />
         </counts>
@@ -154,11 +153,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="224">
+              <first_editor relative-caret-position="67">
                 <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
               </first_editor>
               <second_editor />
@@ -166,11 +165,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example06-post2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="160">
+              <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
                 <element signature="e#193#226#0" expanded="true" />
               </folding>
@@ -353,8 +352,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="103" />
-    <option name="y" value="30" />
+    <option name="x" value="108" />
+    <option name="y" value="32" />
     <option name="width" value="1065" />
     <option name="height" value="726" />
   </component>
@@ -558,13 +557,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542982880281</updated>
-    </task>
-    <task id="LOCAL-00027" summary="1、返回函数&#10;2、闭包">
-      <created>1544110799638</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1544110799638</updated>
     </task>
     <task id="LOCAL-00028" summary="1、装饰器&#10;2、偏函数">
       <created>1544112924410</created>
@@ -902,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547048783930</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary=" log:post2">
+      <created>1547130557127</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1547130557128</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TodoView">
@@ -915,15 +914,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="30" width="1065" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="108" y="32" width="1065" height="726" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" weight="0.050251257" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.24763407" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.24763407" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8069467" weight="0.3459854" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -960,7 +958,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="XML的DOM读取: 1、minidom 2、etree" />
     <MESSAGE value="log:1、xml的修改和写入;2、Questions update : string前加&quot;u/U&quot; &quot;r/R&quot; &quot;b/B&quot;" />
     <MESSAGE value="log:1、json;2、正则" />
     <MESSAGE value="log:RE" />
@@ -985,7 +982,8 @@
     <MESSAGE value=" log:post1" />
     <MESSAGE value=" log:post1 fix error" />
     <MESSAGE value=" log:update question" />
-    <option name="LAST_COMMIT_MESSAGE" value=" log:update question" />
+    <MESSAGE value=" log:post2" />
+    <option name="LAST_COMMIT_MESSAGE" value=" log:post2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1354,16 +1352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="224">
-            <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example05-post.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1383,11 +1371,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example06-post2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="160">
+          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
             <element signature="e#193#226#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="67">
+            <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

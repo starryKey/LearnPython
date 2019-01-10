@@ -61,6 +61,8 @@ jsonDic = json.loads(json_data)
 print(type(jsonDic))
 print(jsonDic)
 
+
+
 for item in jsonDic["data"]:
     print(item["k"], "--", item["v"])
 
