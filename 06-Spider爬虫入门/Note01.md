@@ -64,7 +64,9 @@
             - Content-Length:数据长度
             - 简而言之，一旦更改请求方法，请注意请求头部信息相连接
         - urllib.parse.urlencode:可以将字符串自动换成上面的
-    - Example05    
+    - Example05
+    - 为了过多的设置请求信息，单纯的通过urlopen函数已经不能满足，需要使用request.Request类
+    - Example06    
     
  
      
