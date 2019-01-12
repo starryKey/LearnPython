@@ -18,6 +18,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$UseFile.coverage" NAME="UseFile Coverage Results" MODIFIED="1544452557777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/14-文件File" />
     <SUITE FILE_PATH="coverage/LearnPython$Example01.coverage" NAME="Example01 Coverage Results" MODIFIED="1545057240273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
     <SUITE FILE_PATH="coverage/LearnPython$TkinterExample10.coverage" NAME="TkinterExample10 Coverage Results" MODIFIED="1546612180098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-TKinter基础" />
+    <SUITE FILE_PATH="coverage/LearnPython$Example10_ProxyHandler.coverage" NAME="Example10-ProxyHandler Coverage Results" MODIFIED="1547305052420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Spider爬虫入门" />
     <SUITE FILE_PATH="coverage/LearnPython$TkinterExample07.coverage" NAME="TkinterExample07 Coverage Results" MODIFIED="1546611003636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-TKinter基础" />
     <SUITE FILE_PATH="coverage/LearnPython$TkinterExample04.coverage" NAME="TkinterExample04 Coverage Results" MODIFIED="1546611152043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-TKinter基础" />
     <SUITE FILE_PATH="coverage/LearnPython$Example19.coverage" NAME="Example19 Coverage Results" MODIFIED="1544878584584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
@@ -118,7 +119,7 @@
           <entry key="log" value="1" />
           <entry key="md" value="49" />
           <entry key="pstat" value="4" />
-          <entry key="py" value="237" />
+          <entry key="py" value="238" />
           <entry key="txt" value="6" />
           <entry key="xml" value="8" />
         </counts>
@@ -130,7 +131,7 @@
           <entry key="Markdown" value="49" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Profiler Session" value="4" />
-          <entry key="Python" value="237" />
+          <entry key="Python" value="238" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -138,18 +139,18 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="html" value="27" />
-          <entry key="md" value="28979" />
-          <entry key="py" value="40312" />
-          <entry key="txt" value="1137" />
+          <entry key="md" value="29209" />
+          <entry key="py" value="40600" />
+          <entry key="txt" value="1148" />
           <entry key="xml" value="377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="27" />
-          <entry key="Markdown" value="28979" />
-          <entry key="PLAIN_TEXT" value="1137" />
-          <entry key="Python" value="40318" />
+          <entry key="Markdown" value="29209" />
+          <entry key="PLAIN_TEXT" value="1148" />
+          <entry key="Python" value="40606" />
           <entry key="XML" value="377" />
         </counts>
       </usages-collector>
@@ -161,8 +162,8 @@
         <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="358">
-                <caret line="103" column="137" selection-start-line="103" selection-start-column="137" selection-end-line="103" selection-end-column="137" />
+              <first_editor relative-caret-position="298">
+                <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -170,97 +171,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example09-UserAgent.py">
+        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example10-ProxyHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="21" column="163" selection-start-line="21" selection-start-column="163" selection-end-line="21" selection-end-column="163" />
+            <state relative-caret-position="181">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding>
-                <element signature="e#36#69#0" expanded="true" />
+                <element signature="e#18#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example08-httperror.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding>
-                <element signature="e#21#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example06-post2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="e#193#226#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example07-error.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example05-post.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="53" column="22" lean-forward="true" selection-end-line="64" />
-              <folding>
-                <element signature="e#193#227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tools/Questions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="295">
-                <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="311" selection-start-line="311" selection-end-line="311" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example04-request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/request.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="324" column="8" selection-start-line="324" selection-start-column="8" selection-end-line="324" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -301,7 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-高级语法/18-格式化文件/Example09.py" />
         <option value="$PROJECT_DIR$/03-高级语法/18-格式化文件/Example10.py" />
         <option value="$PROJECT_DIR$/03-高级语法/18-格式化文件/Note-正则.md" />
         <option value="$PROJECT_DIR$/03-高级语法/18-格式化文件/Example11.py" />
@@ -350,8 +266,9 @@
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example06-post2.py" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example07-error.py" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example08-httperror.py" />
-        <option value="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example09-UserAgent.py" />
+        <option value="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" />
+        <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example10-ProxyHandler.py" />
       </list>
     </option>
   </component>
@@ -362,8 +279,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="23" />
+    <option name="x" value="66" />
+    <option name="y" value="27" />
     <option name="width" value="1207" />
     <option name="height" value="777" />
   </component>
@@ -434,29 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Example09-UserAgent">
-    <configuration name="Example05-post" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06-Spider爬虫入门" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06-Spider爬虫入门/Example05-post.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Example10-ProxyHandler">
     <configuration name="Example06-post2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -545,20 +440,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Example10-ProxyHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06-Spider爬虫入门" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06-Spider爬虫入门/Example10-ProxyHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Example05-post" />
       <item itemvalue="Python.Example06-post2" />
       <item itemvalue="Python.Example07-error" />
       <item itemvalue="Python.Example08-httperror" />
       <item itemvalue="Python.Example09-UserAgent" />
+      <item itemvalue="Python.Example10-ProxyHandler" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Example10-ProxyHandler" />
         <item itemvalue="Python.Example09-UserAgent" />
         <item itemvalue="Python.Example08-httperror" />
         <item itemvalue="Python.Example07-error" />
         <item itemvalue="Python.Example06-post2" />
-        <item itemvalue="Python.Example05-post" />
       </list>
     </recent_temporary>
   </component>
@@ -572,13 +489,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542982880281</updated>
-    </task>
-    <task id="LOCAL-00030" summary="1、update debug">
-      <created>1544196195265</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1544196195265</updated>
     </task>
     <task id="LOCAL-00031" summary="1、file">
       <created>1544281093741</created>
@@ -916,7 +826,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547133985255</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary=" log:UserAgent">
+      <created>1547216903558</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1547216903558</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -929,15 +846,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="405" y="23" width="1690" height="777" extended-state="0" />
+    <frame x="366" y="32" width="1207" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.15048544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.21287553" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" weight="0.050251257" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.1781022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.33868614" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83186704" weight="0.34542587" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -974,7 +891,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="log:1、json;2、正则" />
     <MESSAGE value="log:RE" />
     <MESSAGE value="log:RE常用函数" />
     <MESSAGE value="log:XPath基础" />
@@ -999,7 +915,8 @@
     <MESSAGE value=" log:update question" />
     <MESSAGE value=" log:post2" />
     <MESSAGE value=" log:error模块" />
-    <option name="LAST_COMMIT_MESSAGE" value=" log:error模块" />
+    <MESSAGE value=" log:UserAgent" />
+    <option name="LAST_COMMIT_MESSAGE" value=" log:UserAgent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1038,13 +955,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-高级语法/18-格式化文件/Example02.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-高级语法/18-格式化文件/Note-xpath.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1333,23 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example04-request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/Questions.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="295">
-            <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example05-post.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1367,6 +1260,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example07-error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/Questions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="295">
+            <caret line="26" column="50" lean-forward="true" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example06-post2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1377,20 +1287,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="358">
-            <caret line="103" column="137" selection-start-line="103" selection-start-column="137" selection-end-line="103" selection-end-column="137" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example07-error.py">
+    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example04-request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="191">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1406,10 +1306,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example09-UserAgent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="21" column="163" selection-start-line="21" selection-start-column="163" selection-end-line="21" selection-end-column="163" />
+        <state relative-caret-position="136">
+          <caret line="21" column="82" lean-forward="true" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
           <folding>
             <element signature="e#36#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="298">
+            <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example10-ProxyHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#18#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

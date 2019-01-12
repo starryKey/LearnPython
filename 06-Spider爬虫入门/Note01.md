@@ -107,7 +107,21 @@
         - heads
         - add_header
         - Example09
-    - 
+    - ProxyHandler处理(代理服务器)
+        - 使用代理IP，是爬虫的常用手段
+        - 获取代理服务器的地址
+            - www.xicidaili.com
+            - www,goubanjia.com
+        - 代理用来隐藏真是访问中，代理也不允许频繁访问某个固定网络，代理一定要很多个
+    - 基本使用步骤
+        - 1、设置代理地址
+        - 2、创建ProxyHandler
+        - 3、创建Opener
+        - 4、安装Opener
+    - Example10
+    
+    
+    
  
      
     
