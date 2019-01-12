@@ -103,6 +103,8 @@
 
             Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3
             Mozilla/5.0 (iPod; U; CPU like Mac OS X; en) AppleWebKit/420.1 (KHTML, like Gecko) Version/3.0 Mobile/3A101a Safari/419.3
+            Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5
+
     - 设置UA可以通过两种方式
         - heads
         - add_header
@@ -119,7 +121,21 @@
         - 3、创建Opener
         - 4、安装Opener
     - Example10
-    
+ - cookie & session
+    - 由于http协议的无记忆性，人们为了弥补这个缺陷，所采用的一个补充协议
+    - cookie是发送给用户(访问者，如浏览器)的一段信息，session是保存在服务器上的对应的另一半信息，用来记录用户信息
+ - cookie和session的区别
+    - 存放位置不同
+    - cookie不安全，cookie用户保存，session服务器保存
+    - session会保存在服务器上一定时间，会过期
+    - 单个cookie保存数据不超过4k,很多浏览器限制一个站点最多保存20个
+ - session的存放位置
+    - 存在服务器
+    - 一般情况下，session是放在内存中或数据库中
+    - 没有cookie登录Example11,根据结果可知，没使用cookie则返回网页为未登录        
+ -  使用cookie登录
+    - 直接把cookie复制下来，然后手动放入请求头中，Example12  
+ 
     
     
  
