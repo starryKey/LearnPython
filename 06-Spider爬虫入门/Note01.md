@@ -153,6 +153,33 @@
         - 打开登录页面后自动通过用户名密码登录
         - 自动提取反馈回来的cookie
         - 利用提取的cookie登录隐私页面
+        - Example13，Mark：验证没绕过去。。。
+    - handler是Handler的实例，常用的如下
+        - 用来处理复杂请求
+        
+               #生成cookie的管理器
+               cookie_handle = request.HTTPCookieProcessor(cookie)
+               #创建http请求的管理器
+               http_handle = request.HTTPHandler()
+               #创建HTTPS管理器
+               context = ssl._create_unverified_context()
+               https_handle = request.HTTPSHandler(context=context)
+    - 创建handler后，使用opener打开，打开后相应的业务有相应的handler处理
+        - Example14,cookie作为一个变量，打印出来
+        - cookie的属性
+            - name: 名称
+            - value:值
+            - domain:可以访问此cookie的域名
+            - path:可以访问此cookie的页面路径
+            - expires:过期时间
+            - size：大小
+            - http字段
+         
+            
+            
+                    
+            
+      
                 
         
           

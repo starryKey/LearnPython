@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+login.sina.com.cn	FALSE	/	FALSE		login	e1a21262cabcf8e67f910dbf33fb0319
+login.sina.com.cn	FALSE	/sso	FALSE	1547480852	TEMP_PWD_FLOW_ID	2YTdcPKuPAANe607Y6x4htCZz9HLr71glB1RFTVBQV0Q.
