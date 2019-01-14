@@ -174,6 +174,10 @@
             - expires:过期时间
             - size：大小
             - http字段
+        - cookie的保存-FileCookieJar,Example15
+        - cookie的读取
+            - Example16
+            
          
             
             

@@ -34,7 +34,7 @@ def login():
 
     data = {
         "username":"1056838379@qq.com",
-        "password":"ljl547067"
+        "password":"xxxx"
     }
 
     context = ssl._create_unverified_context()
