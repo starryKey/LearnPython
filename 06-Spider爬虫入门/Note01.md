@@ -178,7 +178,13 @@
         - cookie的读取
             - Example16
             
-         
+- SSL
+ - SSL证书就是指遵守SSL安全套接层协议的服务器数字证书(SercureSocketLayer)    
+ - 美国网景公司开发
+ - CA(CertifacateAuthority)是数字证书认证中心，是发放、管理、废除数字证书的受信任的第三方机构
+    - SSL(Secure Sockets Layer 安全套接层),及其继任者传输层安全（Transport Layer Security，TLS）是为网络通信提供安全及数据完整性的一种安全协议。TLS与SSL在传输层对网络连接进行加密
+    - 遇到不信任的SSL证书，需要单独处理
+    - Example17-ssl     
             
             
                     
