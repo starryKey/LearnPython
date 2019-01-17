@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/Example18-js.py" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/Example18-js.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/rsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/rsp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/rsp2.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/rsp2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tools/Tools.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tools/Tools.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,7 @@
     <SUITE FILE_PATH="coverage/LearnPython$P02.coverage" NAME="P02 Coverage Results" MODIFIED="1543586195571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/Demo" />
     <SUITE FILE_PATH="coverage/LearnPython$Example14.coverage" NAME="Example14 Coverage Results" MODIFIED="1544797640483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
     <SUITE FILE_PATH="coverage/LearnPython$Example02.coverage" NAME="Example02 Coverage Results" MODIFIED="1545058732917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/17-协程" />
-    <SUITE FILE_PATH="coverage/LearnPython$Example20.coverage" NAME="Example20 Coverage Results" MODIFIED="1544878972739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/16-多线程" />
+    <SUITE FILE_PATH="coverage/LearnPython$Example20.coverage" NAME="Example20 Coverage Results" MODIFIED="1547740648446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Spider爬虫入门" />
     <SUITE FILE_PATH="coverage/LearnPython$Example13_cookie3.coverage" NAME="Example13-cookie3 Coverage Results" MODIFIED="1547476977204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Spider爬虫入门" />
     <SUITE FILE_PATH="coverage/LearnPython$Ftp01.coverage" NAME="Ftp01 Coverage Results" MODIFIED="1546081483898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-高级语法/19-net编程" />
     <SUITE FILE_PATH="coverage/LearnPython$Example03_urlopen.coverage" NAME="Example03-urlopen Coverage Results" MODIFIED="1546876094956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Spider爬虫入门" />
@@ -128,7 +129,7 @@
           <entry key="html" value="5" />
           <entry key="ipynb" value="26" />
           <entry key="log" value="1" />
-          <entry key="md" value="55" />
+          <entry key="md" value="56" />
           <entry key="pstat" value="4" />
           <entry key="py" value="268" />
           <entry key="txt" value="7" />
@@ -139,7 +140,7 @@
         <counts>
           <entry key="HTML" value="5" />
           <entry key="IPNB" value="26" />
-          <entry key="Markdown" value="55" />
+          <entry key="Markdown" value="56" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Profiler Session" value="4" />
           <entry key="Python" value="268" />
@@ -150,7 +151,7 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="html" value="27" />
-          <entry key="md" value="30535" />
+          <entry key="md" value="30612" />
           <entry key="py" value="42563" />
           <entry key="txt" value="1185" />
           <entry key="xml" value="377" />
@@ -159,7 +160,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="27" />
-          <entry key="Markdown" value="30535" />
+          <entry key="Markdown" value="30612" />
           <entry key="PLAIN_TEXT" value="1185" />
           <entry key="Python" value="42569" />
           <entry key="XML" value="377" />
@@ -193,26 +194,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="835">
-                <caret line="181" column="55" lean-forward="true" selection-start-line="181" selection-start-column="55" selection-end-line="181" selection-end-column="55" />
+              <first_editor relative-caret-position="327">
+                <caret line="195" column="3" selection-start-line="195" selection-start-column="3" selection-end-line="195" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tools/Tools.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="360">
+                <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example18-js.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="301">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
-                <marker date="1547739084690" expanded="true" signature="67:68" ph="..." />
-                <marker date="1547739084690" expanded="true" signature="67:73" ph="..." />
+                <marker date="1547739270405" expanded="true" signature="67:68" ph="..." />
+                <marker date="1547739270405" expanded="true" signature="67:73" ph="..." />
               </folding>
             </state>
           </provider>
@@ -221,7 +234,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example19-js.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
+            <state relative-caret-position="-343">
               <caret line="50" column="80" lean-forward="true" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
             </state>
           </provider>
@@ -321,11 +334,11 @@
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example15-cookie5.py" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example14-cookie4.py" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example16-cookie6.py" />
-        <option value="$PROJECT_DIR$/Tools/Tools.md" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example17-ssl.py" />
-        <option value="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example19-js.py" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example18-js.py" />
+        <option value="$PROJECT_DIR$/Tools/Tools.md" />
+        <option value="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" />
       </list>
     </option>
   </component>
@@ -336,9 +349,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="168" />
+    <option name="x" value="152" />
     <option name="y" value="23" />
-    <option name="width" value="1120" />
+    <option name="width" value="1067" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -418,29 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Example18-js">
-    <configuration name="Example15-cookie5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LearnPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06-Spider爬虫入门" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06-Spider爬虫入门/Example15-cookie5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Example20">
     <configuration name="Example16-cookie6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LearnPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -529,20 +520,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Example20" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LearnPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06-Spider爬虫入门" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06-Spider爬虫入门/Example20.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Example15-cookie5" />
       <item itemvalue="Python.Example16-cookie6" />
       <item itemvalue="Python.Example17-ssl" />
       <item itemvalue="Python.Example18-js" />
       <item itemvalue="Python.Example19-js" />
+      <item itemvalue="Python.Example20" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Example20" />
         <item itemvalue="Python.Example18-js" />
         <item itemvalue="Python.Example19-js" />
         <item itemvalue="Python.Example17-ssl" />
         <item itemvalue="Python.Example16-cookie6" />
-        <item itemvalue="Python.Example15-cookie5" />
       </list>
     </recent_temporary>
   </component>
@@ -556,13 +569,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542982880281</updated>
-    </task>
-    <task id="LOCAL-00038" summary="上个版本提交log为：1、共享变量2、线程安全；3、Lock">
-      <created>1544715593640</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1544715593640</updated>
     </task>
     <task id="LOCAL-00039" summary="1、死锁问题；&#10;2、锁的等待&#10;3、semaphore&#10;4、threading.Timer&#10;5、RLock()">
       <created>1544801211278</created>
@@ -900,7 +906,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547653507228</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary=" log:js">
+      <created>1547739284309</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1547739284310</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TodoView">
@@ -913,15 +926,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="23" width="1120" height="777" extended-state="0" />
+    <frame x="417" y="23" width="1067" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.23469388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.24682927" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49900597" weight="0.050251257" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.29343066" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48869145" visible="true" weight="0.055474453" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.83186704" weight="0.34542587" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -958,7 +971,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="log:1、UDP" />
     <MESSAGE value="log:1、update example" />
     <MESSAGE value="log:1、tcp" />
     <MESSAGE value=" log:1、fix tcp example error" />
@@ -983,7 +995,8 @@
     <MESSAGE value=" log:Cookie" />
     <MESSAGE value=" log:ssl" />
     <MESSAGE value=" log:jstest" />
-    <option name="LAST_COMMIT_MESSAGE" value=" log:jstest" />
+    <MESSAGE value=" log:js" />
+    <option name="LAST_COMMIT_MESSAGE" value=" log:js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1565,16 +1578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tools/Tools.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="420">
-            <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example16-cookie6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -1595,31 +1598,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="835">
-            <caret line="181" column="55" lean-forward="true" selection-start-line="181" selection-start-column="55" selection-end-line="181" selection-end-column="55" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example19-js.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
+        <state relative-caret-position="-343">
           <caret line="50" column="80" lean-forward="true" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example18-js.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="301">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
-            <marker date="1547739084690" expanded="true" signature="67:68" ph="..." />
-            <marker date="1547739084690" expanded="true" signature="67:73" ph="..." />
+            <marker date="1547739270405" expanded="true" signature="67:68" ph="..." />
+            <marker date="1547739270405" expanded="true" signature="67:73" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools/Tools.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="360">
+            <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="327">
+            <caret line="195" column="3" selection-start-line="195" selection-start-column="3" selection-end-line="195" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
