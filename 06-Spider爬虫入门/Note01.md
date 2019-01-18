@@ -197,7 +197,25 @@
  - 一定会有URL，请求方法，可能有数据
  - 一般使用格式
  - Example20
-     
+## Request 让HTTP服务人类
+ - 更简洁更友好
+ - 继承了urllib的所有特征
+ - 底层使用的是urllib3
+ - 开源地址：https://github.com/requests/requests
+ - 中文文档：http://docs.python-requests.org/zh_CN/latest/index.html
+ - 安装：conda install requests
+ - get请求
+    - requests.get(url)
+    - requests.request("get",url)
+    - 可以带有headers和parmas参数
+    - 案例Example21
+ - get返回内容
+      Example22 
+    
+ 
+ 
+
+      
             
             
                     
