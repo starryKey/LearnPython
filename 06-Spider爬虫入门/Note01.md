@@ -210,8 +210,14 @@
     - 可以带有headers和parmas参数
     - 案例Example21
  - get返回内容
-      Example22 
+    - Example22 
+ - post 
+    - rsp = requests.post(url, data=data)
+    - Example23
+    - date, headers要求dict类型
+ - proxy
     
+       
  
  
 
