@@ -91,5 +91,17 @@
         </html>
         在 <head> 或 <body> 中引用脚本文件都是可以的。实际运行效果与您在 <script> 标签中编写脚本完全一致。
         提示：外部脚本不能包含 <script> 标签。
- 
+        
+## JavaScript库
+ - 三种广受欢迎的 JavaScript 框架。所有这些框架都提供针对常见 JavaScript 任务的函数，包括动画、DOM 操作以及 Ajax 处理。
+    - jQuery
+    - Prototype
+    - MooTools
+### jQuery
+ - 引用
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+        </script>
+
+    
  

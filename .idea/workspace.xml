@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-前端基础/01基础/CSSNote.md" beforeDir="false" afterPath="$PROJECT_DIR$/05-前端基础/01基础/CSSNote.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-前端基础/01基础/JSNote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-前端基础/01基础/JSNote.md" beforeDir="false" afterPath="$PROJECT_DIR$/05-前端基础/01基础/JSNote.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/rsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/rsp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/rsp2.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/rsp2.html" afterDir="false" />
     </list>
@@ -157,7 +156,7 @@
           <entry key="Python Console" value="6" />
           <entry key="html" value="27" />
           <entry key="js" value="738" />
-          <entry key="md" value="31894" />
+          <entry key="md" value="31933" />
           <entry key="py" value="42966" />
           <entry key="txt" value="1210" />
           <entry key="xml" value="377" />
@@ -167,7 +166,7 @@
         <counts>
           <entry key="HTML" value="27" />
           <entry key="JavaScript" value="738" />
-          <entry key="Markdown" value="31894" />
+          <entry key="Markdown" value="31933" />
           <entry key="PLAIN_TEXT" value="1210" />
           <entry key="Python" value="42972" />
           <entry key="XML" value="377" />
@@ -190,8 +189,8 @@
         <entry file="file://$PROJECT_DIR$/05-前端基础/01基础/JSNote.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+              <first_editor relative-caret-position="140">
+                <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -308,10 +307,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-157" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="302" />
     <option name="y" value="23" />
-    <option name="width" value="1359" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -526,13 +525,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542982880281</updated>
-    </task>
-    <task id="LOCAL-00044" summary="asyncio">
-      <created>1545147507114</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1545147507114</updated>
     </task>
     <task id="LOCAL-00045" summary="asyncio">
       <created>1545148575442</created>
@@ -870,7 +862,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547998992473</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary=" log:web">
+      <created>1548002163066</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1548002163066</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TodoView">
@@ -883,10 +882,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="23" width="1359" height="777" extended-state="0" />
+    <frame x="6" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.1624905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.17285945" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1610,8 +1609,8 @@
     <entry file="file://$PROJECT_DIR$/05-前端基础/01基础/JSNote.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+          <first_editor relative-caret-position="140">
+            <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
