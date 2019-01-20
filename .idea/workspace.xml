@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment=" log:request">
+    <list default="true" id="ce779acd-7ae6-41fe-be1d-42b04b8866c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/rsp.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/rsp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/06-Spider爬虫入门/rsp2.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-Spider爬虫入门/rsp2.html" afterDir="false" />
     </list>
@@ -131,7 +130,7 @@
           <entry key="log" value="1" />
           <entry key="md" value="57" />
           <entry key="pstat" value="4" />
-          <entry key="py" value="272" />
+          <entry key="py" value="273" />
           <entry key="txt" value="7" />
           <entry key="xml" value="8" />
         </counts>
@@ -143,7 +142,7 @@
           <entry key="Markdown" value="57" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Profiler Session" value="4" />
-          <entry key="Python" value="272" />
+          <entry key="Python" value="273" />
           <entry key="XML" value="8" />
         </counts>
       </usages-collector>
@@ -151,17 +150,17 @@
         <counts>
           <entry key="Python Console" value="6" />
           <entry key="html" value="27" />
-          <entry key="md" value="30907" />
+          <entry key="md" value="30940" />
           <entry key="py" value="42966" />
-          <entry key="txt" value="1199" />
+          <entry key="txt" value="1204" />
           <entry key="xml" value="377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="27" />
-          <entry key="Markdown" value="30907" />
-          <entry key="PLAIN_TEXT" value="1199" />
+          <entry key="Markdown" value="30940" />
+          <entry key="PLAIN_TEXT" value="1204" />
           <entry key="Python" value="42972" />
           <entry key="XML" value="377" />
         </counts>
@@ -170,14 +169,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
+              <first_editor relative-caret-position="395">
+                <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example23.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#203#218#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -236,7 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-高级语法/19-net编程/MailExample01.py" />
         <option value="$PROJECT_DIR$/03-高级语法/19-net编程/test02.html" />
         <option value="$PROJECT_DIR$/03-高级语法/19-net编程/MailExample03.py" />
         <option value="$PROJECT_DIR$/03-高级语法/19-net编程/MailExample04.py" />
@@ -287,6 +297,7 @@
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example21.py" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example22.py" />
         <option value="$PROJECT_DIR$/06-Spider爬虫入门/Note01.md" />
+        <option value="$PROJECT_DIR$/06-Spider爬虫入门/Example23.py" />
       </list>
     </option>
   </component>
@@ -297,9 +308,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
+    <option name="x" value="42" />
     <option name="y" value="23" />
-    <option name="width" value="981" />
+    <option name="width" value="1179" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -517,13 +528,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542982880281</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Python文档：HeadFirstPython">
-      <created>1544929878632</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1544929878632</updated>
     </task>
     <task id="LOCAL-00042" summary="迭代器、生成器">
       <created>1544972841749</created>
@@ -861,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547824503438</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary=" log:post">
+      <created>1547909874797</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1547909874798</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView">
@@ -874,10 +885,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="472" y="23" width="981" height="777" extended-state="0" />
+    <frame x="42" y="23" width="1179" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.2736954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964789" visible="true" weight="0.22603342" />
       <window_info id="Structure" order="1" sideWeight="0.50352114" side_tool="true" weight="0.24289195" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -920,7 +931,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value=" log:1、fix tcp example error" />
     <MESSAGE value=" log:1、ftp" />
     <MESSAGE value=" log:1、email" />
     <MESSAGE value=" log:update README.md" />
@@ -945,7 +955,8 @@
     <MESSAGE value=" log:js" />
     <MESSAGE value=" log:ajax" />
     <MESSAGE value=" log:request" />
-    <option name="LAST_COMMIT_MESSAGE" value=" log:request" />
+    <MESSAGE value=" log:post" />
+    <option name="LAST_COMMIT_MESSAGE" value=" log:post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -984,13 +995,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-高级语法/19-net编程/TCPClient01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04-TKinter基础/Exmple03-grid.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1590,10 +1594,20 @@
     <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Note01.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="214" column="4" selection-start-line="214" selection-start-column="4" selection-end-line="214" selection-end-column="4" />
+          <first_editor relative-caret-position="395">
+            <caret line="221" lean-forward="true" selection-start-line="221" selection-end-line="221" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-Spider爬虫入门/Example23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#203#218#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
