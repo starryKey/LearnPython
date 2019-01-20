@@ -144,7 +144,134 @@
             #sidebar {
 	            border: 1px dotted #000;
 	            padding: 10px;
-	        }  
+	        }
+# 类选择器
+ - 在选择器中，类选择器以一个点号显示：
+        
+        .center {text-align: center}
+        在上面的例子中，所有拥有 center 类的 HTML 元素均为居中
+        在下面的 HTML 代码中，h1 和 p 元素都有 center 类。这意味着两者都将遵守 ".center" 选择器中的规则。
+        <h1 class="center">
+        This heading will be center-aligned
+        </h1>
+    	
+    	<p class="center">
+        This paragraph will also be center-aligned.
+        </p> 
+        类名的第一个字符不能使用数字！它无法在 Mozilla 或 Firefox 中起作用。 
+ - 和 id 一样，class 也可被用作派生选择器：       
+        
+        .fancy td {
+	        color: #f60;
+	        background: #666;
+	    }
+	    在上面这个例子中，类名为 fancy 的更大的元素内部的表格单元都会以灰色背景显示橙色文字。（名为 fancy 的更大的元素可能是一个表格或者一个 div	    
+ - 元素也可以基于它们的类而被选择：
+    
+        td.fancy {
+	        color: #f60;
+	        background: #666;
+	    }
+ - 在上面的例子中，类名为 fancy 的表格单元将是带有灰色背景的橙色。
+ 
+# 属性选择器
+ - 对带有指定属性的 HTML 元素设置样式
+        
+        [title]
+        {
+            color:red;
+        }
+ - 属性和值选择器
+    
+        [title=W3School]
+        {
+            border:5px solid blue;
+        }
+ - 属性和值选择器 - 多个值 
+    
+        [title~=hello] { color:red; } 
+        下面的例子为带有包含指定值的 lang 属性的所有元素设置样式。适用于由连字符分隔的属性值：
+        [lang|=en] { color:red; }
+ - 设置表单的样式
+  - 属性选择器在为不带有 class 或 id 的表单设置样式时特别有用：
+    
+        input[type="text"]
+        {
+            width:150px;
+            display:block;
+            margin-bottom:10px;
+            background-color:yellow;
+            font-family: Verdana, Arial;
+        }
+
+        input[type="button"]
+        {
+            width:120px;
+            margin-left:35px;
+            display:block;
+            font-family: Verdana, Arial;
+        }
+# 创建CSS
+ - 如何插入样式表
+ - 当读到一个样式表时，浏览器会根据它来格式化 HTML 文档。插入样式表的方法有三种：
+ 
+        1、外部表样式
+        
+        <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css" />
+        </head>
+        浏览器会从文件 mystyle.css 中读到样式声明，并根据它来格式文档。
+        外部样式表可以在任何文本编辑器中进行编辑。文件不能包含任何的 html 标签。样式表应该以 .css 扩展名进行保存。下面是一个样式表文件的例子：
+            
+            hr {color: sienna;}
+            p  {margin-left: 20px;}
+            body {background-image: url("images/back40.gif");}
+        
+        2、内部表样式
+        当单个文档需要特殊的样式时，就应该使用内部样式表。你可以使用 <style> 标签在文档头部定义内部样式表，就像这样:
+        
+            <head>
+                <style type="text/css">
+                hr {color: sienna;}
+                p {margin-left: 20px;}
+                body {background-image: url("images/back40.gif");}
+                </style>
+            </head>
+        3、内联样式
+        
+        由于要将表现和内容混杂在一起，内联样式会损失掉样式表的许多优势。请慎用这种方法，例如当样式仅需要在一个元素上应用一次时
+            
+            <p style="color: sienna; margin-left: 20px">
+            This is a paragraph
+            </p>
+        4、多重样式
+        如果某些属性在不同的样式表中被同样的选择器定义，那么属性值将从更具体的样式表中被继承过来。
+            
+            例如，外部样式表拥有针对 h3 选择器的三个属性：
+            h3 {
+                color: red;
+                text-align: left;
+                font-size: 8pt;
+                }
+            而内部样式表拥有针对 h3 选择器的两个属性：
+            h3 {
+                text-align: right; 
+                font-size: 20pt;
+                }
+            假如拥有内部样式表的这个页面同时与外部样式表链接，那么 h3 得到的样式是：
+                color: red; 
+                text-align: right; 
+                font-size: 20pt;
+            即颜色属性将被继承于外部样式表，而文字排列（text-alignment）和字体尺寸（font-size）会被内部样式表中的规则取代。
+            
+        
+        
+            
+
+        
+     
+  
+    	    
     
     
  	     
