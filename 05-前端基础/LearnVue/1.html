@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{msg}}</p>
+        <p>{{str}}</p>
+        <p>{{obj}}</p>
+        <p>{{arr}}</p>
+        <p>{{1+1}}</p>
+        <p>{{1>0? '对':'错'}}</p>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                // 数字
+                msg:12,
+                // 字符串
+                str:'test',
+                // 对象
+                obj:{name:"Jack",age:19},
+                arr:['a','hello world'],
+
+
+            }
+        })
+    </script>
+
+</body>
+</html>
