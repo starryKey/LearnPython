@@ -1,5 +1,6 @@
 # Vue
  - 概述
+    - [介绍](https://cn.vuejs.org/v2/guide/)
     - Vue.js是一个类似于jquery的js库(框架)
  - MVVM：
     - M ：model 模型  数据模型
@@ -14,8 +15,8 @@
        - 简单运算，不能写js表达式
  - 文本指令:
     - 以v-开头，对html中元素的功能拓展
-        - v-html
-        - v-text
+        - v-html：能解析标签
+        - v-text：不能解析标签
  - 开发环境
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
  - 生产环境

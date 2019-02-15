@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本指令</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+       <!--v-html能解析标签-->
+        <p v-html="msg"></p>
+        <p v-html="msg2"></p>
+        <!--v-text不能解析标签-->
+        <p v-text="msg3"></p>
+    </div>
+    <script>
+        new Vue({
+            el:'#app',
+            data:{
+                // 文本
+                msg:"hello world",
+                // 标签
+                msg2:"<h1>哈哈哈 </h1>",
+
+                msg3:"<h1>哈哈哈 </h1>",
+            }
+        })
+
+    </script>
+</body>
+</html>
