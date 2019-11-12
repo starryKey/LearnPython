@@ -17,6 +17,8 @@
     - 以v-开头，对html中元素的功能拓展
         - v-html：能解析标签
         - v-text：不能解析标签
+    - Vue:v-拓展
+        - v-bind:属性名，简写 :属性名
  - 开发环境
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
  - 生产环境
